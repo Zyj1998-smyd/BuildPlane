@@ -1,0 +1,82 @@
+[
+  {
+    "LevelID": 1,
+    "Quality1": 70,
+    "Quality2": 30,
+    "Quality3": 5,
+    "Quality4": 0,
+    "Quality5": 0
+  },
+  {
+    "LevelID": 2,
+    "Quality1": 60,
+    "Quality2": 40,
+    "Quality3": 10,
+    "Quality4": 0,
+    "Quality5": 0
+  },
+  {
+    "LevelID": 3,
+    "Quality1": 50,
+    "Quality2": 50,
+    "Quality3": 20,
+    "Quality4": 5,
+    "Quality5": 0
+  },
+  {
+    "LevelID": 4,
+    "Quality1": 40,
+    "Quality2": 40,
+    "Quality3": 30,
+    "Quality4": 10,
+    "Quality5": 5
+  },
+  {
+    "LevelID": 5,
+    "Quality1": 30,
+    "Quality2": 30,
+    "Quality3": 20,
+    "Quality4": 20,
+    "Quality5": 10
+  },
+  {
+    "LevelID": 101,
+    "Quality1": -1,
+    "Quality2": 2,
+    "Quality3": 1,
+    "Quality4": 0,
+    "Quality5": 0
+  },
+  {
+    "LevelID": 102,
+    "Quality1": -1,
+    "Quality2": 1,
+    "Quality3": 1,
+    "Quality4": 0,
+    "Quality5": 0
+  },
+  {
+    "LevelID": 103,
+    "Quality1": -1,
+    "Quality2": 0,
+    "Quality3": 1,
+    "Quality4": 1,
+    "Quality5": 0
+  },
+  {
+    "LevelID": 104,
+    "Quality1": -1,
+    "Quality2": 0,
+    "Quality3": 1,
+    "Quality4": 1,
+    "Quality5": 1
+  },
+  {
+    "LevelID": 105,
+    "Quality1": -1,
+    "Quality2": -1,
+    "Quality3": 1,
+    "Quality4": 2,
+    "Quality5": 1
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Doc": "Fly x times",
+    "Type": "0",
+    "Num": "15"
+  },
+  {
+    "ID": "2",
+    "Doc": "Watch x ads",
+    "Type": "0",
+    "Num": "5"
+  },
+  {
+    "ID": "3",
+    "Doc": "Upgrade x items",
+    "Type": "0",
+    "Num": "5"
+  },
+  {
+    "ID": "4",
+    "Doc": "Open x boxes",
+    "Type": "0",
+    "Num": "5"
+  },
+  {
+    "ID": "5",
+    "Doc": "Buy x items",
+    "Type": "0",
+    "Num": "5"
+  },
+  {
+    "ID": "6",
+    "Doc": "Collect x rewards",
+    "Type": "0",
+    "Num": "5"
+  },
+  {
+    "ID": "7",
+    "Doc": "Complete X paint changes",
+    "Type": "0",
+    "Num": "1"
+  },
+  {
+    "ID": "8",
+    "Doc": "Check the leaderboard X times",
+    "Type": "0",
+    "Num": "1"
+  },
+  {
+    "ID": "9",
+    "Doc": "Upgrade any enhancement X times",
+    "Type": "0",
+    "Num": "30"
+  },
+  {
+    "ID": "10",
+    "Doc": "Collect X coins during flight",
+    "Type": "0",
+    "Num": "30"
+  },
+  {
+    "ID": "101",
+    "Doc": "Active Reward: Coins",
+    "Type": "102",
+    "Num": "2000"
+  },
+  {
+    "ID": "102",
+    "Doc": "Active Reward: Gems",
+    "Type": "200",
+    "Num": "50"
+  },
+  {
+    "ID": "103",
+    "Doc": "Active Reward: Basic Chest",
+    "Type": "300",
+    "Num": "1"
+  },
+  {
+    "ID": "104",
+    "Doc": "Active Reward: Premium Chest",
+    "Type": "301",
+    "Num": "1"
+  },
+  {
+    "ID": "105",
+    "Doc": "Active Reward: Luxury Chest",
+    "Type": "302",
+    "Num": "1"
+  }
+]

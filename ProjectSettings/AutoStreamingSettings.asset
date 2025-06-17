@@ -1,0 +1,1269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1200 &1
+AutoStreamingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  mSearchMode: 15
+  mCustomSearchFile: 
+  mTextureSearchString: 
+  mMeshSearchString: 
+  mTextures:
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Call/_Call.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Follow/_Follow.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Prefabs/Main/Collection/Image/_CollectionImage.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Login/_Login.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Rank/_Rank.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Set/_Set.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Guide/_Guide.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Collection/_Collection.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Main/_Main.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/LoadScene/_LoadScene.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Battle/Account/_Account.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Battle/BattleMain/_BattleMain.spriteatlas
+    localFileId: 4343727234628468602
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 1114112
+    width: 0
+    height: 0
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Plugins/Beautify/URP/Runtime/Resources/Textures/flareNoise.png
+    localFileId: 2800000
+    rtMem: 40096
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 256
+    height: 256
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Plugins/Beautify/URP/Runtime/Resources/Textures/lensDirt.png
+    localFileId: 2800000
+    rtMem: 314992
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 1024
+    height: 512
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Plugins/Beautify/URP/Runtime/Resources/Textures/blueNoise.png
+    localFileId: 2800000
+    rtMem: 3072
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 32
+    height: 32
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Font/Cn1/Cn1.asset
+    localFileId: -4031540533625781365
+    rtMem: 1048576
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    - aa
+    maxPlaceholderSize: 589856
+    width: 1024
+    height: 1024
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIElement8px.png
+    localFileId: 2800000
+    rtMem: 256
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 8
+    height: 8
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/White1px.png
+    localFileId: 2800000
+    rtMem: 3
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 1
+    height: 1
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutOpened.png
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 11
+    height: 11
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UIFoldoutClosed.png
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 11
+    height: 11
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures/UICheckMark.png
+    localFileId: 2800000
+    rtMem: 484
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 11
+    height: 11
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/ItemFrame.psd
+    localFileId: 2800000
+    rtMem: 28800
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 80
+    height: 90
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/RewardItem/Null0.png
+    localFileId: 2800000
+    rtMem: 1024
+    warningFlag: 0
+    refs:
+    - 0
+    maxPlaceholderSize: 196640
+    width: 16
+    height: 16
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/UnLock/UnLock4_Add.psd
+    localFileId: 2800000
+    rtMem: 250000
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 250
+    height: 250
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/UnLock/Null2.psd
+    localFileId: 2800000
+    rtMem: 4096
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 32
+    height: 32
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/Tips/Null.png
+    localFileId: 2800000
+    rtMem: 144
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 32
+    height: 32
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/GetLine2.png
+    localFileId: 2800000
+    rtMem: 6328
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 113
+    height: 14
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/Btn_GetOk.psd
+    localFileId: 2800000
+    rtMem: 43344
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 172
+    height: 63
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/ItemDes/Null.png
+    localFileId: 2800000
+    rtMem: 1024
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 16
+    height: 16
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/GetTitle.psd
+    localFileId: 2800000
+    rtMem: 10176
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 106
+    height: 24
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/UnLock/UnLock2.psd
+    localFileId: 2800000
+    rtMem: 11844
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 63
+    height: 47
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/GetFrame.psd
+    localFileId: 2800000
+    rtMem: 740160
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 720
+    height: 257
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/ItemDes/Btn_Close1.psd
+    localFileId: 2800000
+    rtMem: 6240
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 39
+    height: 40
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/UnLock/UnLock1.psd
+    localFileId: 2800000
+    rtMem: 24800
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 155
+    height: 40
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/Wait/Wait.psd
+    localFileId: 2800000
+    rtMem: 1048576
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 512
+    height: 512
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/Null.png
+    localFileId: 2800000
+    rtMem: 1024
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 16
+    height: 16
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/ItemDes/Ui_Frame.psd
+    localFileId: 2800000
+    rtMem: 16384
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 64
+    height: 64
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/UnLock/UnLock5_Add.psd
+    localFileId: 2800000
+    rtMem: 250000
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 250
+    height: 250
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/ItemDes/ItemFrame.psd
+    localFileId: 2800000
+    rtMem: 28800
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 80
+    height: 90
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/UnLock/UnLock3.psd
+    localFileId: 2800000
+    rtMem: 5712
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 42
+    height: 34
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/GetLine1.png
+    localFileId: 2800000
+    rtMem: 6328
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 113
+    height: 14
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/ItemDes/Ui_CloseText.psd
+    localFileId: 2800000
+    rtMem: 5040
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 60
+    height: 21
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/GetLight.psd
+    localFileId: 2800000
+    rtMem: 68644
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 131
+    height: 131
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/ItemDes/Btn_Close2.psd
+    localFileId: 2800000
+    rtMem: 15824
+    warningFlag: 0
+    refs:
+    - aa
+    maxPlaceholderSize: 196640
+    width: 92
+    height: 43
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Effect/Light2.psd
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/Effect/TexOfMat/Star.psd
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 196640
+    width: 256
+    height: 256
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Arts/3D/TexOfMat/Ui_Vodie.psd
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Effect/Light1.psd
+    localFileId: 2800000
+    rtMem: 29584
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 196640
+    width: 256
+    height: 256
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Arts/3D/TexOfMat/MatCap1.psd
+    localFileId: 2800000
+    rtMem: 7744
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 256
+    height: 256
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Scenes/MainScene/ReflectionProbe-0.exr
+    localFileId: 8900000
+    rtMem: 16704
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Scenes/BattleScene/ReflectionProbe-0.exr
+    localFileId: 8900000
+    rtMem: 63072
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Scenes/MainScene/Lightmap-0_comp_light.exr
+    localFileId: 2800000
+    rtMem: 144
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 196640
+    width: 32
+    height: 32
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/3D/TexOfMat/BackGroundMain2.psd
+    localFileId: 2800000
+    rtMem: 3872
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 196640
+    width: 256
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/3D/TexOfMat/Floor1.psd
+    localFileId: 2800000
+    rtMem: 1936
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 196640
+    width: 128
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/3D/TexOfMat/BackGroundMain1.psd
+    localFileId: 2800000
+    rtMem: 118336
+    warningFlag: 0
+    refs:
+    - 1
+    maxPlaceholderSize: 196640
+    width: 1024
+    height: 1024
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Arts/3D/TexOfMat/BackGroundBattle1_2.psd
+    localFileId: 2800000
+    rtMem: 15136
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 1024
+    height: 128
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Effect/CaiDai1.psd
+    localFileId: 2800000
+    rtMem: 29584
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 196640
+    width: 256
+    height: 256
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 0
+    assetPath: Assets/Arts/3D/TexOfMat/BackGroundBattle1_1.psd
+    localFileId: 2800000
+    rtMem: 30272
+    warningFlag: 0
+    refs:
+    - 2
+    maxPlaceholderSize: 0
+    width: 1024
+    height: 256
+    abSize: 0
+  mAudios:
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/PourOut.wav
+    localFileId: 8300000
+    rtMem: 10784
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/VesselError.wav
+    localFileId: 8300000
+    rtMem: 3552
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Move.wav
+    localFileId: 8300000
+    rtMem: 1696
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Star.wav
+    localFileId: 8300000
+    rtMem: 9760
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Done.wav
+    localFileId: 8300000
+    rtMem: 5600
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Win.wav
+    localFileId: 8300000
+    rtMem: 9888
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Lose.wav
+    localFileId: 8300000
+    rtMem: 16672
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Click.wav
+    localFileId: 8300000
+    rtMem: 1152
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Waoo.wav
+    localFileId: 8300000
+    rtMem: 4032
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Good.wav
+    localFileId: 8300000
+    rtMem: 3200
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Bgm/Bgm1.wav
+    localFileId: 8300000
+    rtMem: 72032
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Guide/Guide1.wav
+    localFileId: 8300000
+    rtMem: 15072
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Guide/Guide2.wav
+    localFileId: 8300000
+    rtMem: 10752
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Guide/Guide3_1.wav
+    localFileId: 8300000
+    rtMem: 24992
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Guide/Guide4.wav
+    localFileId: 8300000
+    rtMem: 19840
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Guide/Guide5.wav
+    localFileId: 8300000
+    rtMem: 24480
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Sound/Start.wav
+    localFileId: 8300000
+    rtMem: 3424
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/Audio/Guide/Guide3_2.wav
+    localFileId: 8300000
+    rtMem: 13440
+    warningFlag: 0
+    refs:
+    - 2
+  mMeshes:
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/Vessel.fbx:Vessel
+    localFileId: -6830291838179995775
+    rtMem: 44928
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/Vessel.fbx:TeaV
+    localFileId: 5651410341909293191
+    rtMem: 15024
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/WaterFlow.fbx:WaterFlow
+    localFileId: -5076780359046182182
+    rtMem: 7400
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/Straw.fbx:Straw
+    localFileId: -5486331822824694941
+    rtMem: 7296
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/CupCover.fbx:CupCover
+    localFileId: -6337888602169884591
+    rtMem: 60912
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/CupLLogo.fbx:CupLLogo
+    localFileId: 8415632834686288765
+    rtMem: 768
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/Plane1.fbx:Plane1
+    localFileId: -577795571684211238
+    rtMem: 192
+    warningFlag: 0
+    refs:
+    - 1
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/CupL.fbx:CupL
+    localFileId: -4381370765951701250
+    rtMem: 27936
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/CupL.fbx:TeaL
+    localFileId: 2984271262985083405
+    rtMem: 9840
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/Plane2.fbx:Plane2
+    localFileId: -5538220705945243834
+    rtMem: 192
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/CupS.fbx:CupS
+    localFileId: 2763167087269707095
+    rtMem: 26784
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/CupS.fbx:TeaS
+    localFileId: 5993344399331161217
+    rtMem: 7824
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/ShowCup/ShowCup1.fbx:ShowCup1
+    localFileId: -7191535989157519887
+    rtMem: 53888
+    warningFlag: 0
+    refs:
+    - aa
+  mAnimations:
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselStand1.anim:VesselStand1
+    localFileId: 7400000
+    rtMem: 177
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselStand2.anim:VesselStand2
+    localFileId: 7400000
+    rtMem: 177
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselStand3.anim:VesselStand3
+    localFileId: 7400000
+    rtMem: 177
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselPourOut1.anim:VesselPourOut1
+    localFileId: 7400000
+    rtMem: 776
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselPourOut2.anim:VesselPourOut2
+    localFileId: 7400000
+    rtMem: 776
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselPourOut3.anim:VesselPourOut3
+    localFileId: 7400000
+    rtMem: 848
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselMove.anim:VesselMove
+    localFileId: 7400000
+    rtMem: 105
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselChange.anim:VesselChange
+    localFileId: 7400000
+    rtMem: 1053
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/VesselError.anim:VesselError
+    localFileId: 7400000
+    rtMem: 838
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupLStand.anim:CupLStand
+    localFileId: 7400000
+    rtMem: 174
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupLDone.anim:CupLDone
+    localFileId: 7400000
+    rtMem: 2012
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupLOut.anim:CupLOut
+    localFileId: 7400000
+    rtMem: 246
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupLIn.anim:CupLIn
+    localFileId: 7400000
+    rtMem: 318
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Common/_Ani/ButtonAni.controller:Pressed
+    localFileId: -2103636170031399057
+    rtMem: 2656
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Common/_Ani/ButtonAni.controller:Normal
+    localFileId: 3681726535750800367
+    rtMem: 2656
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Common/_Ani/CurrencyOpen.anim:CurrencyOpen
+    localFileId: 7400000
+    rtMem: 300
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupSStandFull.anim:CupSStandFull
+    localFileId: 7400000
+    rtMem: 344
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupSPourOut.anim:CupSPourOut
+    localFileId: 7400000
+    rtMem: 848
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupSStandEmpty.anim:CupSStandEmpty
+    localFileId: 7400000
+    rtMem: 344
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/CupSStandAdd.anim:CupSStandAdd
+    localFileId: 7400000
+    rtMem: 344
+    warningFlag: 0
+    refs:
+    - 2
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/Tips/_Ani/TipsOpen.anim:TipsOpen
+    localFileId: 7400000
+    rtMem: 685
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/UnLock/_Ani/UnLock.anim:UnLock
+    localFileId: 7400000
+    rtMem: 979
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Ani/PrepareOut.anim:PrepareOut
+    localFileId: 7400000
+    rtMem: 4026
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Guide/Ani/GuideHand.anim:GuideHand
+    localFileId: 7400000
+    rtMem: 464
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/_Ani/GetRewardsOpen.anim:GetRewardsOpen
+    localFileId: 7400000
+    rtMem: 6529
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/_Ani/RewardItemFlash.anim:RewardItemFlash
+    localFileId: 7400000
+    rtMem: 3416
+    warningFlag: 0
+    refs:
+    - 0
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/GetRewards/_Ani/RewardItemNull.anim:RewardItemNull
+    localFileId: 7400000
+    rtMem: 2720
+    warningFlag: 0
+    refs:
+    - 0
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/LoadScene/_Ani/OpenEnd.anim:OpenEnd
+    localFileId: 7400000
+    rtMem: 2792
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Globa/LoadScene/_Ani/OpenStart.anim:OpenStart
+    localFileId: 7400000
+    rtMem: 2828
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Main/Ani/Btn_Call1.anim:Btn_Call1
+    localFileId: 7400000
+    rtMem: 444
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Main/Ani/Btn_Call2.anim:Btn_Call2
+    localFileId: 7400000
+    rtMem: 588
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/3D/Modle/ShowCup/ShowCup1.fbx:Stand
+    localFileId: 1827226128182048838
+    rtMem: 24422
+    warningFlag: 0
+    refs:
+    - aa
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Guide/Ani/Guide2_1.anim:Guide2_1
+    localFileId: 7400000
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Arts/2D/Ui/Guide/Ani/Guide3_1.anim:Guide3_1
+    localFileId: 7400000
+    rtMem: 0
+    warningFlag: 0
+    refs:
+    - 2
+  mSharedSceneAssets:
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Arts/2D/Font/Cn1.otf
+    assetType: 28
+    rtMem: 65536
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Arts/2D/Font/Cn1/Cn1.asset
+    assetType: 21
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Arts/2D/Font/Cn1/Cn1.mat
+    assetType: 21
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Arts/2D/Ui/Common/_Ani/ButtonAni.controller
+    assetType: 91
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Shaders/Other/OnlyShadow.mat
+    assetType: 21
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/Shaders/Other/OnlyShadow.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Assets/TmpPreset/LightingSettings.lighting
+    assetType: 850595691
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Packages/com.unity.render-pipelines.universal/Shaders/Unlit.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 0
+    assetPath: Packages/com.unity.shadergraph/Editor/Resources/Shaders/FallbackError.shader
+    assetType: 48
+    rtMem: 0
+    refs: 0100000002000000
+  mScenes:
+  - onDemandDownload: 0
+    assetPath: Assets/Scenes/RootScene.unity
+    localFileId: -1
+    rtMem: 0
+    warningFlag: 0
+    refs: []
+  - onDemandDownload: 1
+    assetPath: Assets/Scenes/MainScene.unity
+    localFileId: -1
+    rtMem: 196144
+    warningFlag: 0
+    refs: []
+  - onDemandDownload: 1
+    assetPath: Assets/Scenes/BattleScene.unity
+    localFileId: -1
+    rtMem: 191879
+    warningFlag: 0
+    refs: []
+  mConfigCCD:
+    useCCD: 0
+    uosSecret: 79cbea913fb243fe94e00c3773b01588
+    uosAppid: b79a27d5-d9df-44fc-89ab-a514269c5050
+    bucketUuid: 4db417c5-8ddf-4ddf-b71e-6ca826d36f75
+    bucketName: MilkTea_WX
+    badgeName: V1
+    ttAppid: 
+    targetPlatfrom: 

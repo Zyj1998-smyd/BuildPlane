@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 967945c68bd0e99419fa7bd015e9dfcf
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MatcapTexGlass: {fileID: 2800000, guid: 6b1400c810e9ac54190ddc2d494aae7d, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

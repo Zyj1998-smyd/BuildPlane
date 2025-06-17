@@ -1,0 +1,2015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7a5cdf4360492e54484f0231cf670753
+  m_SerializeEntries:
+  - m_GUID: bc1ede39bf3643ee8e493720e4259791
+    m_Address: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96bb768342e4ad34dbfc9c79c2860268
+    m_Address: Assets/Arts/2D/Ui/_Common/_Ani/BtnLoop.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 991d736ffcd9a5e4f803f97e7075b3fa
+    m_Address: Assets/Arts/2D/Ui/_Common/_Ani/ButtonAni.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbf18ed40f238044b9bdefa762c5ae9a
+    m_Address: Assets/Arts/2D/Ui/_Common/_Ani/CurrencyOpen.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 111ae2c6905c5b14daf1c9e9c270e922
+    m_Address: Assets/Arts/2D/Ui/Guide/Ui_QuanBg.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceaad54f3c419b945a9cb96fcb125fe5
+    m_Address: Assets/Arts/2D/Ui/Guide/Null0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f0ee63f34b53ce4bbec41e562c667bf
+    m_Address: Assets/Arts/2D/Ui/Guide/Frame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f678465eb8876364888740a2a76c967f
+    m_Address: Assets/Arts/2D/Ui/Guide/Ui_Quan.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72c3136cbcca25f41a6c06a67ce6cc30
+    m_Address: Assets/Arts/2D/Ui/Guide/Spurt2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99528dbbe33b0184fa78fce835226111
+    m_Address: Assets/Arts/2D/Ui/Guide/JianTou.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd6717ba0a880704b883d31c40872f38
+    m_Address: Assets/Arts/2D/Ui/Guide/Hand1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dbcb3f99b4c8a64aa1b5b5d8515a4dc
+    m_Address: Assets/Arts/2D/Ui/Guide/Hand2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6532fd92e868084ba23f1c195847196
+    m_Address: Assets/Arts/2D/Ui/Guide/Circle.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c710e57ecc605a41a45f0fcc907e34d
+    m_Address: Assets/Arts/2D/Ui/Guide/TalkNext.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b06b19f60d2d6a8438222839cdd12785
+    m_Address: Assets/Arts/2D/Ui/Guide/Spurt1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9181aa6e8d576a488d74196a2e9d2e6
+    m_Address: Assets/Arts/2D/Ui/Guide/HeadImage1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfd4c924b68b7264db392103aae1ef6b
+    m_Address: Assets/Arts/2D/Ui/Guide/Spurt3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9449cf3732f7134788a538025325b74
+    m_Address: Assets/Arts/2D/Ui/Guide/Frame2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ff8469269311be4ab8fa9fc6398e008
+    m_Address: Assets/Arts/2D/Ui/Guide/TouchNext.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2190d420083ece4097e160d23075008
+    m_Address: Assets/Arts/2D/Ui/Guide/Null1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8e291e5f0ded58449a6398e5fb908fc
+    m_Address: Assets/Arts/2D/Ui/Guide/Ani/TouchNext.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eb633fa6b582554989ba45ebe6ca5eb
+    m_Address: Assets/Arts/2D/Ui/Guide/Ani/TouchNext.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe710cf4ebc395546a8c54ef4839af2d
+    m_Address: Assets/Arts/2D/Ui/Guide/Ani/GuideBattleTalk.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3431663742748e947b3ab438c29005ce
+    m_Address: Assets/Arts/2D/Ui/Guide/Ani/GuideBattleTalkEnd.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30274921905440642bfd445952de1ff4
+    m_Address: Assets/Arts/2D/Ui/Guide/Ani/GuideBattleTalkStand.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 650dd9526735d5b46b79224bc6e94025
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Unlit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6e9a19c3678ded42a3bc431ebef7dbd
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e335017ad71d54fbb10842863188ae
+    m_Address: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525088605faf1ee40a43d8976ed41287
+    m_Address: Assets/Shaders/Effect/Particle_Blend.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32de3b168d7a5604b8a43cce9a8ea23b
+    m_Address: Assets/Arts/3D/Common/Modle/Plane1.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e15f892a2d8e0154bb626cef7632d76a
+    m_Address: Assets/Shaders/Ui/UiAdd.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25fb4e28de1bf3d408b27458c28fb121
+    m_Address: Assets/Shaders/Ui/UiAdd.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec2b13339c96fd04cbbde8c32a6b554e
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Frame3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9e590ffeac34d049a6438bd76cbf6d3
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Null1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abdb35cf30a0f8b418fbb9005a867f59
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/ItemFrame2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f134f1fa3cf8e1448846cc642d249ed
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Text_1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b694570f97b04e94a8c2b6d77d745bc7
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/ItemFrame0.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23626a8e7f23f4143a0049adbfb470dd
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/New.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3060f3e040fe484c81fa6ed45e15c1c
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/RedPoint.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e52110cdca91b76458b632476a4f0dac
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Debris.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99dfe1ac991f66f4dba01ce5280fb760
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/LuckIcon3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8925356b63c1d314b92fe383ad4042c7
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Sign_AD.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9ad3c2b240ba1d4ebab68deb51dc760
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/ItemFrame4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 102ec4f98ba90c34fa863aa388fb8423
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/ItemFrame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25aefea9426744b48b291752b5d387d0
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Gold.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4af325691a18f7f4cb83b30c635139ed
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/LuckIcon1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5358090962c759040b842b0266c4f2ec
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Frame2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73b5c288bdec705479b306a39c94dea8
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Gem.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 288dfb78a78c5ad4b928a8dec6d8a1b5
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/TittleText_3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f6dbc18598e6d14dbfd201447832e12
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/TextFree.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc46d308aae03b343a576a171afef3c6
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/ItemFrame5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b1e95476b075e64f9d97b546fcab104
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/TittleText_2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc563c27cee104d44a9ff97ffcf21f48
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/TittleText_1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e870f817184bf9c449f81a845839e001
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/LuckIcon2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b70f1b46c1f51fb42b9ba90f627243a3
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Frame4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32072d0674cd671448a4edf828ea9b8d
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/InfoDoc3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4147f92522366114faf88e462eb20fdc
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Null0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e712ecc4b58046144a42e7ca3f091b86
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Button1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aed36b47d89c354ea4046aa6f54d406
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/InfoDoc1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8698143477b65b249a588511c989c26c
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/TextRefresh.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59251cf3a97d3914fb93b3b0f4e57e5c
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/LuckIcon4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebc4659305fc47d4d941df773e4b13d9
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/LevelUp.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94378f92bfe533e4b814422b003b49e6
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/TextSellOut.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad5cb952c5640e542962d5efe573cb31
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/InfoDoc2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99bff0512f086eb4c9f198c04b4b3cf4
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/FrameImage1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a509de0cf706d749a803e508ec74754
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/Frame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a095640187d05a4aac633391a53dcaa
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/ItemFrame3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50b411307a94d1f40bdfdef06178fdc1
+    m_Address: Assets/Arts/2D/Ui/Main/Shop/MoneyFrame.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e3d206272115d247b42168c4045959a
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Light.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d6307dfeef7afc459f391f758af01dc
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Null0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a82cb7fe24fc09478f052a659ffb5c2
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/BtnText2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25e1a45f8d096c94487a7a269a3b6be1
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/TittleWin2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9abf62fefc34c5d408f7fc0b7b6c72a2
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/GoldText2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22e3418e925cec743b6d940e67d53d25
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/GoldText4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02bc11cdc44b8d14ebc52dceeca8ee66
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/GoldText3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6134d68c7f3235141816b44ab9605880
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Gem.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1845df6c575d96841afaa866672020ae
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Frame3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5619784c5b4080545afeb80de45e59ba
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Gold.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c98e96cb97bdd7842a34da6abc159fb7
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Sign_AD.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1372477bb8510324b9b7e0615b191810
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Frame5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 547e6c8a520408a44bb71e9041eed8bc
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Value1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 089c464ab5451f74cb83fdf755ecad29
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/MultipleText3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 842feec9fa8c33a4d8ca15f08ec2d6ad
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Arrow.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba17c0c9c354a7944bbe003e49564e20
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Button3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03f0ee5910faced4ea67dd0b8a5383bf
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/NewRecord.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39de98e86e089124dadced34d1a5a32d
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/MultipleText2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bc9bfa8a21ae7440a5fa47a1a4c5fb5
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/BtnText6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 959f0e1826ace614788534c638f88005
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/NextText.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6a921d7256c9594787435094b6b16f2
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/GoldText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab72a3c7f384e9f42bfacb67a84d0e1d
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Button2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08afc167e59c6544fad30e9554dd3fdc
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/ValueBG.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d41abf601f335843be4d8455c43d695
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Null1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2e240a6949ef2343ae63ac99c5b21d9
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Text1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e235835c65e49d4a91b4a3b4d85bc26
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Frame2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 403283b4cc9889d44ae3e9444fcbaff7
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Button4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f0e78a46b9bc7b4db5e411d7023c87d
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Text2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 818b0c641ba05af4da6df1dac0441bc3
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Button1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 284278f3815c3b545b4c239ce4d746c2
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/BtnText5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4611d7d36c9ec1d45930cfc93b56b156
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/MultipleText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de8a9cb2e28e1764bb3bc2c7b6154de2
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Frame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50046ea2a65196042bc25bd37edde82d
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Tip.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09175192bcac4d049956aff1317d071c
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/BtnText4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc19b0323de9e14459bf589a5876406a
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/Frame4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43a89ad140fe626499791b34c25af76a
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/BtnText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4934f7714c668374c9a98f8a018866ee
+    m_Address: Assets/Arts/2D/Ui/Battle/Account/TittleWin1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4642cd754b15da4c98caa58a84a0bfd
+    m_Address: Assets/Arts/2D/Ui/Rank/Text1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b64c5aff2f5ebdc41813795334fbc9d4
+    m_Address: Assets/Arts/2D/Ui/Rank/FrameMain4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 331d3acfcbcf3a3449963034492b52da
+    m_Address: Assets/Arts/2D/Ui/Rank/Null0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d26481f550452e49a4c52e6b22109bb
+    m_Address: Assets/Arts/2D/Ui/Rank/FrameSub2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 032212ee06fbaf741900f97ccc5076db
+    m_Address: Assets/Arts/2D/Ui/Rank/RankTittleText4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e15686ec016b2544afb5a2a7c020645
+    m_Address: Assets/Arts/2D/Ui/Rank/FrameMain3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98615aade62a43a4f99ad8f5417654b7
+    m_Address: Assets/Arts/2D/Ui/Rank/RankTittleText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 241bd66d9972bb74f9e7abbaef62cf69
+    m_Address: Assets/Arts/2D/Ui/Rank/Frame4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33f07b3c950118440bbd5f4a6bd14b96
+    m_Address: Assets/Arts/2D/Ui/Rank/RankTittleText2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbd913cae5cefee4780322f9ee410930
+    m_Address: Assets/Arts/2D/Ui/Rank/FrameSub3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d24ee26a832f9f048a0a92a971432c27
+    m_Address: Assets/Arts/2D/Ui/Rank/RankTittleText3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eefe53718adf914d958110b3477de6c
+    m_Address: Assets/Arts/2D/Ui/Rank/RankNum3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de876836302456449ad30e8786dfa00a
+    m_Address: Assets/Arts/2D/Ui/Rank/Null1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e08a5c4505cb3c4d8982aa91d17d443
+    m_Address: Assets/Arts/2D/Ui/Rank/RankNum1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1144dea4ba617af4e801608dc149bb59
+    m_Address: Assets/Arts/2D/Ui/Rank/Frame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7ee63a47d6e33a47b43590de6d327a3
+    m_Address: Assets/Arts/2D/Ui/Rank/FrameSub1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c404ef44e5c003b489ef6d3ab65e8c75
+    m_Address: Assets/Arts/2D/Ui/Rank/Frame3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecff1603ae40ffb4284dcfc2736f6ae1
+    m_Address: Assets/Arts/2D/Ui/Rank/HeadImage.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40beafa2003985b4bb080d681be650eb
+    m_Address: Assets/Arts/2D/Ui/Rank/FrameMain2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf571542623cf694b9766509d94bdcc5
+    m_Address: Assets/Arts/2D/Ui/Rank/FrameMain1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07816d318feebea46aa6ece5c10b1cfd
+    m_Address: Assets/Arts/2D/Ui/Rank/Frame2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2723202126cf2de46967a324b98192a8
+    m_Address: Assets/Arts/2D/Ui/Rank/RankNum2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8791370fb592e134a8269d52db8add09
+    m_Address: Assets/Arts/2D/Ui/Globa/RT_PlaneTop2.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adb100755221c634fbf3ade93ea43eb9
+    m_Address: Assets/Arts/2D/Ui/Globa/RT_PlaneTop1.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe393ace9b354375a9cb14cdbbc28be4
+    m_Address: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b15346745824bc4fa4564efa9ee1f48
+    m_Address: Assets/Arts/2D/Ui/Globa/RT_PlaneTop3.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7caca6f51e44c1499e28606d37d6268
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/BtnText2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5943870f2141df04f9ebb8cb7e54768f
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/TimeText.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4a632bd6e6ceec43b7a5157de3601fc
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/BtnText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49a94e8c9daf1254797a8fb951d075f8
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/TittleText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c73f4cb848da7243abe1c9bb23c59f6
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/TittleText2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd211e5ab33465b458001483b9bfec04
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Promulgate.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1881177ac4cd3a4fb9b6d26e8acbf5a
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Frame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1144ed074a597e24fa4fef0cdd9d6470
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/RedPoint.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9111a86bbbe8c04786cf6ae1acd8aae
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Raffle2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f59d506f85e37b43b53a2e5d848546a
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Null1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4378e6839c61a364ab886b8a043ac579
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/BtnText3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 849950435e8d3b2489e3334a5390397e
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Raffle.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2ed590346f89e24e91904f13952c8ed
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Button1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a232df098e7f6b469f97ec9fb7821ff
+    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Close.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 814f2f32be87f4342a8a199ead362fcf
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Icon1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc09b65ded7dc1b4faf118bb61799d06
+    m_Address: Assets/Arts/2D/Ui/Main/Task/TittleText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a36c3dcf60699d45b9e3140348180af
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Null0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a05b0d8b5db9578488a9a2ef539db248
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 781d809a4d8acda408f1d5c9991d058b
+    m_Address: Assets/Arts/2D/Ui/Main/Task/TittleText2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb250e4a93c3bb440b6b64d98cd3b21b
+    m_Address: Assets/Arts/2D/Ui/Main/Task/ActiveReward.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b2062a3daa2d344afe162c7b7e57a1
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Close.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22521ae80a780de41a305dab997256dc
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Icon2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc2df828a5e180f4a90f521a831e4658
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40f702f78eb468f41b5d19e8dab2ad6a
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cb94737c6cda384d8c9a89e90112f98
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Gou.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c2a18f6f3824a9499e6e69f371cdfaf
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Null1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a31e6966273a8c4084a397a9bfb748f
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ffc5ab531a7b6c4b8de3d519c74b8f4
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Bar.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee42b9852dfd5834482531b1e80a2b31
+    m_Address: Assets/Arts/2D/Ui/Main/Task/RedPoint.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bda95155da23886489363179761c90cb
+    m_Address: Assets/Arts/2D/Ui/Main/Task/BtnText1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13f91425d0b1ebd4f9e3e0da8a8bf328
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Icon3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44bcf4b49d45c9e4a887195c22fed6b5
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Button1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b481294ab277a343b215a1efd5d8ff9
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ddab7839c01aeb42819a423dc6b9acd
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f3bf6e27677c6341bc96ed7dd18f5d7
+    m_Address: Assets/Arts/2D/Ui/Main/Task/JianTou.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb81d32225f4172458cca90e301939c2
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7e1c8c1709884b4ca3945382f7a4e50
+    m_Address: Assets/Arts/2D/Ui/Main/Task/Frame7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bccda324855f65b4181bdd4192bdc397
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Null1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c1df5df544a21045be3b6e6660cd53b
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Null0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae7fb48eca5a82b458ffabfef696be0e
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Ui_Quan.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01f3930df805235489b87c8f987d97df
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Value1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb0c7e79ae94ea044a687d6adf2a960e
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/NewRecord.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d679426951dca1940bce19dba992683a
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Frame1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a465444993710784a852f36195572094
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Speed.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52a742e7a058f504683e750185136cbe
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Spurt1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84d8231730a12504e8d20b69fc4edda8
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Height.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a889a43afdaf0c40aeecfb1ad475d34
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Spurt3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c85e4df2b102fe94c993492d137dcc74
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Value2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8495eba204de0f749a36f71a84aa0098
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Ui_QuanBg.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f848662ffe494f4482c420bada2acf5
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Gold.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f63d73d1c3893b346980d6699c81f6ed
+    m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Spurt2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8e34132a3d064c4ba727529677eb51f
+    m_Address: Assets/Arts/3D/Box/Box.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05a168ab9f2130645b0fec742f522d69
+    m_Address: Assets/Shaders/Role/Item.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7a0cbb8113d6874195d8ec20ae1f271
+    m_Address: Assets/Arts/3D/MatCap/MatCap3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ed14588ea668874e8465218b803118d
+    m_Address: Assets/Arts/3D/Box/Box.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df015a61b20a29142bd462b452b0b8ea
+    m_Address: Assets/Arts/Effect/TexOfMat/Light2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 081c64ea1545bf542ae9fae69171667d
+    m_Address: Assets/Shaders/Effect/Particle_Add.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c6aca83e6e2ee542816d1ff0654b1fc
+    m_Address: Assets/Arts/Effect/TexOfMat/Light2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 927c617ec22052443aecda9686d8f238
+    m_Address: Assets/Arts/3D/Common/Modle/Plane2.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e328d95a16ffc7944986ed977fa19f6f
+    m_Address: Assets/Arts/Effect/TexOfMat/Light1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 503048bb2c5750744a4ba71610417e4d
+    m_Address: Assets/Arts/Effect/TexOfMat/Light1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aacd9fcf1f4847242bf852d1b1d46b70
+    m_Address: Assets/Arts/3D/Box/Ani/Box.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97cdf03fd19364e449ba990530743364
+    m_Address: Assets/Arts/3D/Box/Ani/Bron.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b1f3ae9465e9c6418737802f98b3be7
+    m_Address: Assets/Arts/3D/Box/Ani/Stand1.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f0fe63919bcf614a8c27a3b9c285562
+    m_Address: Assets/Arts/3D/Box/Ani/Open.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 736b23a37632c4148943521cfa9d1a87
+    m_Address: Assets/Arts/3D/Box/Ani/OpenOne.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c456912c5ae39344b0776df1da89948
+    m_Address: Assets/Arts/3D/Box/Ani/Stand2.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ff1f0912d5c7a74c94ccd17f8642548
+    m_Address: Assets/Arts/3D/Box/Ani/Stand3.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a883b55c2d884cb4e903f5756a60dd74
+    m_Address: Assets/Arts/Audio/Sound/Main/PageOpen.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a50bcc920b45fb41b14bcfe2e2a6b4c
+    m_Address: Assets/URP/GlobalVolume.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a0efbb2b50e1234da3dff50431aec4e
+    m_Address: Assets/Arts/3D/Plane/Plane3/PlaneWing3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c05457e9c3c1f246b5412b4a1f88481
+    m_Address: Assets/Arts/3D/Plane/Plane3/PlaneWing3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b1400c810e9ac54190ddc2d494aae7d
+    m_Address: Assets/Arts/3D/MatCap/PlaneMatTex/MatCapGlass0.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 967945c68bd0e99419fa7bd015e9dfcf
+    m_Address: Assets/Shaders/Role/Role.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f128a567621c4ed49ae2e24406dcf183
+    m_Address: Assets/Arts/3D/Plane/Plane3/PlaneSpurt3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d7abe8e012b11c4d946afb07a80734d
+    m_Address: Assets/Arts/3D/Plane/Plane3/PlaneSpurt3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1b698dd2d97a8b4a9c6add98c9a45c2
+    m_Address: Assets/Arts/3D/Common/Ani/PropellerRotate.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce8c0b1d7aa9677459303795992ff5c0
+    m_Address: Assets/Arts/3D/Plane/Plane1/PlaneSpurt1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1871171b41135de4da00e09cefe779df
+    m_Address: Assets/Arts/3D/Plane/Plane1/PlaneSpurt1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01019f7aa298c0a409e74a38ac77d792
+    m_Address: Assets/Arts/3D/Plane/Plane1/PlaneWing1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 055e7ee28212afa4ebce35ae9e1b6ea6
+    m_Address: Assets/Arts/3D/Plane/Plane1/PlaneWing1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 247c8b75177f7364a95a29f98dd0f1d2
+    m_Address: Assets/Arts/3D/Plane/Plane2/PlaneWing2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e707e3665e52864fa4b7720214b5940
+    m_Address: Assets/Arts/3D/Plane/Plane2/PlaneWing2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ca894517832c334db82b8e936a3b650
+    m_Address: Assets/Arts/3D/Plane/Plane2/PlaneSpurt2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b9fafc40c8343e4daa4f62da244f3e4
+    m_Address: Assets/Arts/3D/Plane/Plane2/PlaneSpurt2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d831363665e203a4b92d35db179e4988
+    m_Address: Assets/Arts/3D/Plane/Plane4/PlaneSpurt4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bca3615d78b9c44aa37757af71e04c5
+    m_Address: Assets/Arts/3D/Plane/Plane4/PlaneSpurt4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d9ff1f664d55ca41bfae9eaf49e1210
+    m_Address: Assets/Arts/3D/Plane/Plane4/PlaneWing4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8894e39208e8c45478898f4f3dc54c1d
+    m_Address: Assets/Arts/3D/Plane/Plane4/PlaneWing4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43d4498f281b4c448900fe0a694add00
+    m_Address: Assets/Arts/3D/Plane/Plane5/PlaneWing5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c25ad542a6cda74aa846d35aaaff285
+    m_Address: Assets/Arts/3D/Plane/Plane5/PlaneWing5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bc8d39e8d105c940b637e3fc77da869
+    m_Address: Assets/Arts/3D/Plane/Plane5/PlaneSpurt5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2f9382bb0d529e4ea70c6e0147ff916
+    m_Address: Assets/Arts/3D/Plane/Plane5/PlaneSpurt5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae99483a0c876a14f8ccfaa788f28c2c
+    m_Address: Assets/Arts/3D/Plane/Plane6/PlaneWing6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 016fd85fc3f49f34ca1f2c011e6eb030
+    m_Address: Assets/Arts/3D/Plane/Plane6/PlaneWing6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72ca061e5c2e62547bd4b23d37107ffa
+    m_Address: Assets/Arts/3D/Plane/Plane6/PlaneSpurt6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 874f908e28d08614c88c51abe9851b5b
+    m_Address: Assets/Arts/3D/Plane/Plane6/PlaneSpurt6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c53c219f54485ba42885f45302abc090
+    m_Address: Assets/Arts/3D/Plane/Plane7/PlaneSpurt7.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cf713b66d16e2a459bd29406e4e5cca
+    m_Address: Assets/Arts/3D/Plane/Plane7/PlaneSpurt7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7298142e0d7d6ff42bea49b5b17b4df1
+    m_Address: Assets/Arts/3D/Plane/Plane7/PlaneWing7.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f016b486c0af5542b8cfbb8b1cfd55f
+    m_Address: Assets/Arts/3D/Plane/Plane7/PlaneWing7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7e36eabb5506c24d95c8e8e930c066d
+    m_Address: Assets/Arts/3D/Plane/Plane8/PlaneSpurt8.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11b82d8d3c9ab214c874bf69e91a96e2
+    m_Address: Assets/Arts/3D/Plane/Plane8/PlaneSpurt8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d11c1395c63d0b45a6fbd8d5f429ce4
+    m_Address: Assets/Arts/3D/Plane/Plane8/PlaneWing8.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec1c49a01ced71a469cb486a9967d837
+    m_Address: Assets/Arts/3D/Plane/Plane8/PlaneWing8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 615fbc2cd4e6e6e439e21520edc1c2b8
+    m_Address: Assets/Arts/3D/Plane/Plane9/PlaneSpurt9.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e01c55f5c4c5d1642a4f1523cca7b954
+    m_Address: Assets/Arts/3D/Plane/Plane9/PlaneSpurt9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5388221fbb98c641939a1af0b71fe99
+    m_Address: Assets/Arts/3D/Plane/Plane9/PlaneWing9.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e5abe28e0a1db94f8c9f33d6d9a19db
+    m_Address: Assets/Arts/3D/Plane/Plane9/PlaneWing9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc20d1f4bac59b64581d7f34d7845484
+    m_Address: Assets/Arts/3D/Plane/Plane10/PlaneWing10.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fb91ba482bcbca45999187214a7aaed
+    m_Address: Assets/Arts/3D/Plane/Plane10/PlaneWing10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fca3f601c9722c4d91de3a9aa0d096b
+    m_Address: Assets/Arts/3D/Plane/Plane10/PlaneSpurt10.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87d369eaf76c8194ab588d339fce2bd1
+    m_Address: Assets/Arts/3D/Plane/Plane10/PlaneSpurt10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8b50a7557035a34cb8141d0918ff98e
+    m_Address: Assets/Arts/3D/Plane/Plane11/PlaneWing11.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ab3eb66add5522469e2afeea6a9786a
+    m_Address: Assets/Arts/3D/Plane/Plane11/PlaneWing11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c863f43734be574b8726cda29bde091
+    m_Address: Assets/Arts/3D/Plane/Plane11/PlaneSpurt11.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97089e38924a27c42a250a1c6960f2b2
+    m_Address: Assets/Arts/3D/Plane/Plane11/PlaneSpurt11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ea071a0010ff5b4891aab7aa5966d50
+    m_Address: Assets/Arts/3D/Plane/Plane12/PlaneSpurt12.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bacb1a96437487409f2c31e6ca9a480
+    m_Address: Assets/Arts/3D/Plane/Plane12/PlaneSpurt12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be74d9a8cdb87c24fa26e6f1634457f7
+    m_Address: Assets/Arts/3D/Plane/Plane12/PlaneWing12.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ed77d7f9c2ddb3419e16305926f6e34
+    m_Address: Assets/Arts/3D/Plane/Plane12/PlaneWing12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b1e82bb65a5ade48a69891a3ac6c341
+    m_Address: Assets/Arts/3D/Plane/Plane13/PlaneWing13.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd470bb2dce603849b2cdc209feeff41
+    m_Address: Assets/Arts/3D/Plane/Plane13/PlaneWing13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9a90d423a5378b45b67d8737ef80f96
+    m_Address: Assets/Arts/3D/Plane/Plane13/PlaneSpurt13.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73b5046b2c010a746abc6233c2df8ad7
+    m_Address: Assets/Arts/3D/Plane/Plane13/PlaneSpurt13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c101a31bff4d3247a589fd30b51a47f
+    m_Address: Assets/Arts/3D/Plane/Plane14/PlaneWing14.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb980224ba46954aa61672e86c61d42
+    m_Address: Assets/Arts/3D/Plane/Plane14/PlaneWing14.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7227eee6c79103249ab44185f912c72a
+    m_Address: Assets/Arts/3D/Plane/Plane14/PlaneSpurt14.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1c8096d2dbe48f4a8d89d549eedcc80
+    m_Address: Assets/Arts/3D/Plane/Plane14/PlaneSpurt14.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b96316df03d2d04e99f30da2c8c1879
+    m_Address: Assets/Arts/3D/Plane/Plane15/PlaneSpurt15.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb778cc1f7d16f244ad3dcc0f093cd89
+    m_Address: Assets/Arts/3D/Plane/Plane15/PlaneSpurt15.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44ac610e17a8cca4f9b9ae6b73bee40d
+    m_Address: Assets/Arts/3D/Plane/Plane15/PlaneWing15.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5244a18d468e8d48ba4c91f3222a1b4
+    m_Address: Assets/Arts/3D/Plane/Plane15/PlaneWing15.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9885f32fc6deb064b88a18ed3194ceb8
+    m_Address: Assets/Arts/3D/Plane/Plane16/PlaneWing16.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e670ec062e2ddb44e913bb0ff1a7a87d
+    m_Address: Assets/Arts/3D/Plane/Plane16/PlaneWing16.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4f2668278d93604dbf0d90bcd0814d1
+    m_Address: Assets/Arts/3D/Plane/Plane16/PlaneSpurt16.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd7c8cb8e324c194480952a7efea40af
+    m_Address: Assets/Arts/3D/Plane/Plane16/PlaneSpurt16.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cd0e52e9f408404786809983b6117a4
+    m_Address: Assets/Arts/3D/Plane/Plane17/PlaneWing17.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b464380c289c02e4a9d4e69eb1c1c3f4
+    m_Address: Assets/Arts/3D/Plane/Plane17/PlaneWing17.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 971ddd9e29b632740abb23fff5e7ccbc
+    m_Address: Assets/Arts/3D/Plane/Plane17/PlaneSpurt17.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a260e4a970799454a900740fc32142ca
+    m_Address: Assets/Arts/3D/Plane/Plane17/PlaneSpurt17.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c58fabe7ca065df489d2e7d2eedb113e
+    m_Address: Assets/Arts/3D/Plane/Plane18/PlaneSpurt18.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9048a833c89ea9040b13eab147f552fe
+    m_Address: Assets/Arts/3D/Plane/Plane18/PlaneSpurt18.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 956932b2972d16041a9aa5e0e4a86142
+    m_Address: Assets/Arts/3D/Plane/Plane18/PlaneWing18.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61d7f10005bf9a5448f0c4cf8728bbeb
+    m_Address: Assets/Arts/3D/Plane/Plane18/PlaneWing18.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ac1ec2cac48b8048ac4aa16803e05e2
+    m_Address: Assets/Arts/3D/Plane/Plane19/PlaneWing19.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b757a93e51798a4a9c08f17dbe5873b
+    m_Address: Assets/Arts/3D/Plane/Plane19/PlaneWing19.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82f9d12a01c802e408d9515468327610
+    m_Address: Assets/Arts/3D/Plane/Plane19/PlaneSpurt19.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3990ca3da07edbe47906bb3f814476d2
+    m_Address: Assets/Arts/3D/Plane/Plane19/PlaneSpurt19.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 113caaee4d3b14e40bbf7f268f0321d4
+    m_Address: Assets/Arts/3D/Plane/Plane20/PlaneSpurt20.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1353606c30e514540b58883fcee9d1a2
+    m_Address: Assets/Arts/3D/Plane/Plane20/PlaneSpurt20.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3ddbb03819b75647ada5d6d28f4f464
+    m_Address: Assets/Arts/3D/Plane/Plane20/PlaneWing20.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25e10be65e12a594994b36b82ceb75db
+    m_Address: Assets/Arts/3D/Plane/Plane20/PlaneWing20.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b65fa3fb800ffb43931769304764e07
+    m_Address: Assets/Arts/3D/MatCap/MatCap2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 379f2787bdf46a04b81c4d4be2819590
+    m_Address: Assets/Arts/3D/Launcher/Line.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d905cee250ccb5543afb0264e94d508e
+    m_Address: Assets/Arts/3D/Launcher/Line.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37137f4b69ae0d54da30a17278e3f9a7
+    m_Address: Assets/Arts/3D/Launcher/SpeedBoard.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 505993f5fb540c741922927f6fd17d7a
+    m_Address: Assets/Shaders/Scene/SpeedBoard.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c443b09fd201604ea95d11deffed4fe
+    m_Address: Assets/Arts/3D/Item/AcceleratingRing1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff60b77064d488640b57a9b0ffea03c0
+    m_Address: Assets/Arts/3D/Item/AcceleratingRing1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6771de14941ba1a4b90570ecdeb40a97
+    m_Address: Assets/Arts/3D/Item/AcceleratingRing1.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68396af1c132fdc43be1b81c2d9a0502
+    m_Address: Assets/Arts/Effect/TexOfMat/GuangQuan1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fbddbccc49365a4189058e978ba9e31
+    m_Address: Assets/Arts/Effect/TexOfMat/GuangQuan1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8fa48609fb195a45a2b62569ddf9a54
+    m_Address: Assets/Arts/3D/Common/Ani/GoldRotate.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 974b2c766a4fc5248b73d911735e23be
+    m_Address: Assets/Arts/3D/Item/Gold1.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f960baafa52b8f45a7740fd433460b4
+    m_Address: Assets/Arts/3D/Item/Gold.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 341b06780ce83d64ebcb5e482c54d96b
+    m_Address: Assets/Arts/3D/Item/Gold.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 292585313845534408c3dad83e6f74f7
+    m_Address: Assets/Arts/3D/MatCap/MatCap1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66f9d23b446867642b2b39fe35359065
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground1/Ground_Collider.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4623292e8bce145478fc36dd63ed98c6
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc8d8580e370ea74c8d36062ec0f52a0
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground1/Ground.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f4a8405c49134442bf3100656c5469a
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock4_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18c384d3f8c8bce4984ec5fd322d9274
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock1_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fafb9e18965b4724199e4276a78ce01e
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock5_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 359abf263742b384ebc41759c1fee76b
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree3_a_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb91f1da151b10b46ba9c7b9a032aa9a
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree4_a_Collider_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb7a4d8b137c22941a2a77c12a9908fe
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree4_a_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce056713361f50e449faa363d6613fbc
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree1_a_Collider_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0efb33a3a79fce64297a9e18644efe68
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree6_a_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84d11a1123489c54d9f157cc0b2bc94f
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground1/Ground.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ca937cbf57f9dd4e8c45a35def4004e
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground1/Ground_A.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca1337078bb655f4493986cbb25bf576
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground1/Ground_B.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bf84a723c1a0d142bebab1cbceeda27
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground1/Ground_Mask.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcdc1a4282a529942b03c123a4358fcb
+    m_Address: Assets/Shaders/Scene/Ground.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa232216c354d6547bbf85ae36dda60f
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock1.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5924fade4e708cd4aa62cd85ecc6d8ee
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree3_a_Collider_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39f295e099098db4ab7d09d8d5ff82aa
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock2_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2692f3337652c724787dec5eb4b01eec
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree2_a_Collider_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6165fb16ec7d05d4f8c85793dab18bba
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree5_a_Collider_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41e64a3e2474ac44bae8c03b4f339795
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene1/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a521ddfd0a3f8e4cb36191053d714f6
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock3_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7843b82d9375234186554e495420e5e
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree6_a_Collider_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b55679531e9abef448d1030519cbde28
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree1_a_Collider_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e86b4e0d7c7c97a49bb3d9badfb357a6
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree6_a_Collider_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8263517667c662c498a7a7fb721d00aa
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree5_a_Collider_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51184067a70cf3741bb49c5355d3d75b
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree5_a_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b38dfc6eb5b9d2540b7487445c81bdac
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_a1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67645bbbb5f0bd942b5828dbef6c268e
+    m_Address: Assets/Shaders/Scene/Scene.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aab4dba5c367ce74883d30ed87c7367e
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_a.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cda4f343927d0804fb85bc823e80afd1
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Collider/Tree2_a_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e402a9a7ad1768f4a91e102b9c4f8fc2
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground1/Ground_Sub.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36926bf88dd58b24aaa0457243a33f53
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_b1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3235a185b1126054694164ba1ebffeac
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_b.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d76db9daeba2d51479ae63411fe0c940
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34803ced9d95f4f44b4f7238548a3565
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52805562dec49a546b49c5c66fac2afc
+    m_Address: Assets/Arts/3D/Item/AcceleratingRing2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29183f1d12cf5d6409165e4980d00eee
+    m_Address: Assets/Arts/3D/Item/AcceleratingRing2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f294cb7ccfb7d54397fe3daf4c36970
+    m_Address: Assets/Arts/3D/Item/ClockIn1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42ca09fb0fff97e4b8c1b5d15fa85a51
+    m_Address: Assets/Arts/3D/Item/ClockIn1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e52fe14136c266c41910e1a1d9d1e695
+    m_Address: Assets/Arts/3D/Item/ClockIn2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f15c4c4ec6f69754ba24140e7a693434
+    m_Address: Assets/Arts/3D/Item/ClockIn2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4cc0aa9de1a2144fb97613eaf19e296
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Tree.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0ba6038ece0fc04aa1c7d7a32250880
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene2/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e328cd1de9346274c9a52842ca6040d4
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Tree_a.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7898c2e2c4e448e459d8e16468015c14
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Tree_a.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e231245d6b6dbda46bd5e6fc9c1a5bf2
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Collider/Tree1_a_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 592966f7ff0104b42bfd1ce71cdbcfce
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Tree_b.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fbe6da30477f3349be9e007e7c7e03b
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Tree_b.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cd2ec51f3f1a784d8adfde48bacf112
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Collider/Tree2_a_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73bf1f0732a8e5747816f097bdf69890
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground3/Ground.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c560f8726b63534ea49dd666232ac26
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground3/Ground_B.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 232ab8c4f5030af47af76b58efb33072
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground3/Ground_A.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a964f2d5c717af5409111e9bc4479cca
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Tree.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ca356998b7476e489d65454ed8af3bf
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Collider/Cypres1_B_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f6dfdb1e1db5db45a930fbb5902ae43
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Tree_b.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bd0ca46c8651cb42940e56cfe5f71d0
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Tree_b.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c7d232cf41e60e438f2b972c810d137
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground3/GroundSub.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3b4136110e674d43a48cc70881b6c12
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Collider/Cypres3_B_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0751c45933c69b4c8b61cdfec802396
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene3/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a677a247f68f274f86ad6395e8991f2
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Tree_a.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6970af19fa1be34db18760fa79de859
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Tree_a.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3600ce24a7fdc91438dbd6f2c3ec0796
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeB/Collider/Cypres2_B_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 286bae6711989d843ae2d3f04c5c0c55
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/Boulder2_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fbabde59656673488c8b0931dcf4dc4
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/Boulder5_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ece2086c9c00fc84c959a4e9dc42f738
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/RockB.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 801f20521b090ec4894ebdf334a9ee6a
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/Boulder1_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54372a4f180f7e540a72a44eb6e569d2
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/RockB.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e943ae6b3d22994faffcd29f183e713
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/RockB.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9962431f97f71c843a8f0cab6cd3a61c
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/Boulder4_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 392e4eb09f9ac99459b2566f4a163c6b
+    m_Address: Assets/Arts/3D/Scene/Environment/RockB/Boulder3_Collider_0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b948c6c4f0ae889428212e0c91963e68
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground4/Ground4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4110278e40068ac4f90bfe58b434d5f0
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground4/Ground4_B.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f323f2f0b66bbf2449144ac2c4c9129c
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground4/Ground4_A.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34bc5b75eb6d8a94c9d9b234521a50e7
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeD/Tree_b.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56d9c43cfc807ce419d178f832f49123
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeD/Tree_b.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de7e3d9391b2c9c46ac63a99eb5e0406
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground4/Ground4_Sub.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8ec3babcbdb2f5489cc7cdc0cfc4614
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeD/Tree.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3212fcd487510c4a9635d50dc9a5a72
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeD/Tree_a.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c77a23fe03f01094dbb10b5d6b7d6d24
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeD/Tree_a.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 822dbee93e2819a4998518a170e7dbe7
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene4/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58fa758d35c6d774c878471078b9a72d
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene5/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9ae9a74d3d110c4493dc34e7d378f8f
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_a2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d41ff536b744aa448b54816a156f1c43
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_b2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa50d72c80071d4c8ed1eb26394ccd1
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene6/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7bb0a938cfd7fd46aa84a91115d81a6
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground6/Ground6_Sub.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e305e39bd29b4574e828c021ebd46eb1
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground6/Ground6_A.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f2c7c9346427ef4687be96321bbbf9d
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground6/Ground6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c522f7c8d8a026b41a12d2a63871d089
+    m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground6/Ground6_B.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 533bc41af86091146a7ed89046b18227
+    m_Address: Assets/Arts/3D/Scene/Environment/RockA/Rock2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6147793f396722e44a356e912bfaa85f
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_b3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 222a66b1a286f2748844df668603ad0a
+    m_Address: Assets/Arts/3D/Scene/Environment/TreeA/Tree_a3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68295bbc3b228504eb5e5b4d86f8c54c
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene7/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6e03251ff5e3a347b5a2f0e6696b4aa
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene9/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6ba9ce49d2d50d46b50f99d6de9c6f1
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene8/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33c8b3655fbd4954d8ade032cf5be811
+    m_Address: Assets/Scenes/TmpBakedScene/BattleScene10/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79058052dba3e0140ba7150fd9332afb
+    m_Address: Assets/Shaders/Scene/Sky.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92578e67b02f1ed438f32c50ff20fea6
+    m_Address: Assets/Arts/3D/Scene/Environment/Sky/Sky2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9c43100cc61e80a4593e890db03b13aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f2f970beed227e6468f6767701ace455, type: 2}
+    - {fileID: 11400000, guid: 4353abfd440807b43a4eb2f2b5fd5b38, type: 2}

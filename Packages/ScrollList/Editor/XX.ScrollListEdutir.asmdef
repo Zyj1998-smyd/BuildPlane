@@ -1,0 +1,16 @@
+{
+    "name": "XX.ScrollListEdutir",
+    "rootNamespace": "",
+    "references": ["GUID:3cc309c0f6277f444bb674177df2bd5b"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

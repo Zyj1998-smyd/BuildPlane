@@ -1,0 +1,167 @@
+[
+  {
+    "ID": 100,
+    "QualityNum1": "4-5",
+    "QualityNum2": "2-3",
+    "QualityNum3": "0-1",
+    "QualityNum4": "0-0",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "1,1,1,1,2",
+    "OpenTime": 10,
+    "OpenGem": 100
+  },
+  {
+    "ID": 101,
+    "QualityNum1": "4-4",
+    "QualityNum2": "3-3",
+    "QualityNum3": "0-1",
+    "QualityNum4": "0-0",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "1,1,1,2,2",
+    "OpenTime": 10,
+    "OpenGem": 150
+  },
+  {
+    "ID": 102,
+    "QualityNum1": "3-4",
+    "QualityNum2": "3-4",
+    "QualityNum3": "1-1",
+    "QualityNum4": "0-0",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "1,1,2,2,2",
+    "OpenTime": 10,
+    "OpenGem": 200
+  },
+  {
+    "ID": 103,
+    "QualityNum1": "3-3",
+    "QualityNum2": "4-4",
+    "QualityNum3": "1-1",
+    "QualityNum4": "0-0",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "1,2,2,2,2",
+    "OpenTime": 10,
+    "OpenGem": 250
+  },
+  {
+    "ID": 104,
+    "QualityNum1": "2-3",
+    "QualityNum2": "4-5",
+    "QualityNum3": "1-2",
+    "QualityNum4": "0-1",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "2,2,2,2,3",
+    "OpenTime": 10,
+    "OpenGem": 300
+  },
+  {
+    "ID": 200,
+    "QualityNum1": "2-3",
+    "QualityNum2": "4-5",
+    "QualityNum3": "2-3",
+    "QualityNum4": "0-1",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "2,2,2,2,3",
+    "OpenTime": 30,
+    "OpenGem": 500
+  },
+  {
+    "ID": 201,
+    "QualityNum1": "2-2",
+    "QualityNum2": "4-4",
+    "QualityNum3": "3-3",
+    "QualityNum4": "0-1",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "2,2,2,3,3",
+    "OpenTime": 30,
+    "OpenGem": 550
+  },
+  {
+    "ID": 202,
+    "QualityNum1": "1-2",
+    "QualityNum2": "3-4",
+    "QualityNum3": "3-4",
+    "QualityNum4": "1-1",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "2,2,3,3,3",
+    "OpenTime": 30,
+    "OpenGem": 600
+  },
+  {
+    "ID": 203,
+    "QualityNum1": "1-1",
+    "QualityNum2": "3-3",
+    "QualityNum3": "4-4",
+    "QualityNum4": "1-1",
+    "QualityNum5": "0-0",
+    "ExtraQualityNum": "2,3,3,3,3",
+    "OpenTime": 30,
+    "OpenGem": 650
+  },
+  {
+    "ID": 204,
+    "QualityNum1": "0-1",
+    "QualityNum2": "2-3",
+    "QualityNum3": "4-5",
+    "QualityNum4": "1-2",
+    "QualityNum5": "0-1",
+    "ExtraQualityNum": "3,3,3,3,4",
+    "OpenTime": 30,
+    "OpenGem": 700
+  },
+  {
+    "ID": 300,
+    "QualityNum1": "0-1",
+    "QualityNum2": "2-3",
+    "QualityNum3": "4-5",
+    "QualityNum4": "2-3",
+    "QualityNum5": "0-1",
+    "ExtraQualityNum": "3,3,3,3,4",
+    "OpenTime": 60,
+    "OpenGem": 1500
+  },
+  {
+    "ID": 301,
+    "QualityNum1": "0-0",
+    "QualityNum2": "2-2",
+    "QualityNum3": "4-4",
+    "QualityNum4": "3-3",
+    "QualityNum5": "0-1",
+    "ExtraQualityNum": "3,3,3,4,4",
+    "OpenTime": 60,
+    "OpenGem": 1550
+  },
+  {
+    "ID": 302,
+    "QualityNum1": "0-0",
+    "QualityNum2": "1-2",
+    "QualityNum3": "3-4",
+    "QualityNum4": "3-4",
+    "QualityNum5": "1-1",
+    "ExtraQualityNum": "3,3,4,4,4",
+    "OpenTime": 60,
+    "OpenGem": 1600
+  },
+  {
+    "ID": 303,
+    "QualityNum1": "0-0",
+    "QualityNum2": "1-1",
+    "QualityNum3": "3-3",
+    "QualityNum4": "4-4",
+    "QualityNum5": "1-1",
+    "ExtraQualityNum": "3,4,4,4,4",
+    "OpenTime": 60,
+    "OpenGem": 1650
+  },
+  {
+    "ID": 304,
+    "QualityNum1": "0-0",
+    "QualityNum2": "0-1",
+    "QualityNum3": "2-3",
+    "QualityNum4": "4-5",
+    "QualityNum5": "1-2",
+    "ExtraQualityNum": "3,4,4,4,4",
+    "OpenTime": 60,
+    "OpenGem": 1700
+  }
+]

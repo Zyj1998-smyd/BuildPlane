@@ -1,0 +1,725 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Plane
+  m_EditorClassIdentifier: 
+  m_GroupName: Plane
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7635dfc6c01b3534e8595c96015bec50
+  m_SerializeEntries:
+  - m_GUID: f383e3779f3b556409ec51af088178bc
+    m_Address: PlaneWingR4000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80c6af6b35cf73e4984d3f3cdfa03659
+    m_Address: PlaneWingL3000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cebe0c31649fca64194c699a0eab8bc2
+    m_Address: PlaneBody1000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79cf5eca39a29714ab8b9ef8bd3a77fb
+    m_Address: PlaneSpurtL6000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bed6ea59c861f7849acc72451102fbac
+    m_Address: PlanePropeller2000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56af1f6c44999aa43a74e6c1a432fdbc
+    m_Address: PlaneSpurtR6000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7c26454610c5234b8225dfb655ddfb9
+    m_Address: PlaneFin5000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dd2f21d9b3c786498ca71369c687665
+    m_Address: PlaneFin5001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 164ac2709e5697f4a95fb28d15a397ab
+    m_Address: PlaneSpurtR6005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90726b10903959742b0adafc5b5b6d16
+    m_Address: PlaneWingR4006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0644acdbe43222646bcb222c68e6939b
+    m_Address: PlaneWingL3006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9c01050bf7c9294c9e9ea3ccd5dc883
+    m_Address: PlaneBody1005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4521d0e0ece0d1340add0055743f2e5d
+    m_Address: PlaneSpurtL6005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c896528b9c513c4d8b339277a78c6dc
+    m_Address: PlanePropeller2012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfdc2e02c2dee524d913a6d05c6736c7
+    m_Address: PlaneWingR4004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab32d61682d037047a18c9939c9f5c6e
+    m_Address: PlaneWingL3004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d987a4efaf17ce14c8a019df6a10d0d9
+    m_Address: PlaneSpurtR6006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad55ba1ba8fd3b048bcf32cde0a13b62
+    m_Address: PlaneSpurtL6006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0950ea039080f746bc325d17ac73a5a
+    m_Address: PlanePropeller2005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b67153caff71a8b4885a3f8991586893
+    m_Address: PlaneFin5005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e9b8ba3132f86a49b78675085213e41
+    m_Address: PlaneBody1010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 109c4ecfa8ce0ba42b013ea41e205d6f
+    m_Address: PlaneSpurtL6010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84ed18690563f9841b91977ad9251a1a
+    m_Address: PlaneWingR4011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08695e64e32277a4187e6d2245526d0b
+    m_Address: PlaneSpurtR6010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99544e29378c4d44b995a3707188eee9
+    m_Address: PlanePropeller2001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 355e5f1d79cb6ef48bfe6bc793652135
+    m_Address: PlaneBody1006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71b91e8ec469f3644a68c22f61b37992
+    m_Address: PlaneWingL3011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7898c374111055d48ab422479d505980
+    m_Address: PlaneFin5006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 042c979cfa21ec04594220ee5b0e7feb
+    m_Address: PlaneFin5007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba450c13969a3e143b7cc7292ce08442
+    m_Address: PlaneWingL3010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8ed742e6d70ca34784edd7ff5e301f9
+    m_Address: PlaneSpurtL6001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11010d52eb8107445b3c4d5a6590fc47
+    m_Address: PlaneSpurtR6001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f50c3ad691bc37d48801e8e479efcf93
+    m_Address: PlaneBody1011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efb1476032306a945bcc052726d7d71f
+    m_Address: PlaneWingR4010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ae7ccebae20a964f87fd80e27f2220d
+    m_Address: PlanePropeller2010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aeea5ccadb12540418020b8896723b12
+    m_Address: PlaneWingR4002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46a1a8ea85860e14884296dc9e18e553
+    m_Address: PlaneWingL3002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32c5671a66262db4d99941709ee3831b
+    m_Address: PlaneBody1001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27fd60619d2e72644b16afddb212bd32
+    m_Address: PlaneSpurtR6002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79dc48265f938174e93f3ca6829f8b36
+    m_Address: PlaneSpurtL6002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3e1fd6b7fe51ff40ae075cdab41bfad
+    m_Address: PlaneFin5008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13d97f2fd7d0d5443bf1331bb0c7be84
+    m_Address: PlanePropeller2014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23c505f639a400f448f4677d8bbb6576
+    m_Address: PlaneSpurtR6003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ef2bba1ae9e7a34a8cbedbf7a015fe3
+    m_Address: PlaneBody1007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60472fbd05ccef74da21f629fad9569c
+    m_Address: PlaneWingL3007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c41aa7837d9cee4fac1530e3a8b0d2c
+    m_Address: PlaneWingR4007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 219ecc1dd0b50b843870b266ddd09f7f
+    m_Address: PlaneSpurtL6003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5e031fd1b312b947bcdd994f8c5ee1a
+    m_Address: PlaneFin5002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6c75407bf4cee6418f836beda778a08
+    m_Address: PlanePropeller2002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62cc590b32c1d424b9640536fafc0baa
+    m_Address: PlaneSpurtR6007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf45055710e082e40875f9ddc2799cc1
+    m_Address: PlaneWingR4009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6246939b2a3dd44f87a4f0fa83e9e60
+    m_Address: PlaneSpurtL6007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a684687b26c0b94478895306842e248d
+    m_Address: PlanePropeller2003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f7be89848c6611429eff0c23979b0e6
+    m_Address: PlaneBody1002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7a1d9d6942ed2747970dae5070ceb26
+    m_Address: PlaneFin5015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f184a3979111b7943b9e614c6c4361cd
+    m_Address: PlaneWingL3009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc35621549939c64cb9fc6b32f150b43
+    m_Address: PlaneSpurtL6011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0de35e699c41b5040885d03631edb826
+    m_Address: PlaneSpurtR6011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c72f536b05a03324e9ce29878807db4a
+    m_Address: PlanePropeller2006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1690b3bff19cfe14c81ccd1c7be73b61
+    m_Address: PlaneWingL3003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 787c214554326764b9ac158bc9bad480
+    m_Address: PlaneFin5010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1be9ce60394229d469b542490063d490
+    m_Address: PlaneWingR4003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baf9be85ea5c5354cb80433055a23de9
+    m_Address: PlaneBody1003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08559d74fbf26284ab7e9f9a0726c35f
+    m_Address: PlanePropeller2004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c71d8f848d6bfff489d579bc969e6d1b
+    m_Address: PlaneWingR4005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a51641268cb4cee429b7778e1e40e0a6
+    m_Address: PlaneWingL3005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa6fea4437b1773429f409dcf19e4e9d
+    m_Address: PlaneSpurtL6008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7994dd2de9e872242b25161d6f49f369
+    m_Address: PlaneBody1004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00be510e1e3b3b246a7a928cd809bf2f
+    m_Address: PlaneFin5003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa39bcab394f1164c84418327991813a
+    m_Address: PlaneSpurtR6008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d0dc92a9d9f2d04786a8ebade118990
+    m_Address: PlaneWingL3001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c13082c9688862041be6362208626c2b
+    m_Address: PlanePropeller2007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c146ab6a22b2074c98a2145ddf4d518
+    m_Address: PlaneSpurtL6012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58127dd58e81cdd449873a6afdf1c334
+    m_Address: PlaneBody1012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ca3b75e5f6c58b4fbdd77e85e6162ec
+    m_Address: PlaneWingR4001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6f0d10d716470a4a8f0f8dde55c6a50
+    m_Address: PlaneSpurtR6012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92687e0d2b456b44d96773b917902e03
+    m_Address: PlaneFin5004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46f0ade47d2b48649b634719184aea54
+    m_Address: PlaneSpurtL6015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bd4adf6791138e4ba251bd2383a2928
+    m_Address: PlaneBody1008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe49268009e26bd4d93b5d0f8cb362ef
+    m_Address: PlaneWingR4008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9e9f4672683178449397d86fe97d21b
+    m_Address: PlaneWingL3008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51ce46de59d37564ea24a9d8559a553c
+    m_Address: PlanePropeller2013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec6e448820b359c4dac9aa73848cd2d1
+    m_Address: PlaneSpurtR6015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91c86c6fb869c234198d2bb7209b0244
+    m_Address: PlaneFin5011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 750dbd66106153e4483a9e4ae3240e0a
+    m_Address: PlanePropeller2011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8256c4de681cedb428ac961e30747639
+    m_Address: PlaneWingL3015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ea2a2603b6f9024680208655254338c
+    m_Address: PlaneBody1013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3592245cac665143ab23754facb5ccc
+    m_Address: PlaneWingR4015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b964e0048387a0c4ebcd9e9383727abd
+    m_Address: PlaneSpurtL6016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae43ac720262825469b9b48b6804e97d
+    m_Address: PlaneSpurtR6016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a050a2e9f63ba8b4394210e410f96a31
+    m_Address: PlaneFin5012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 410fb92ef3cfc5643adfb75fd04ac33a
+    m_Address: PlaneBody1015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f63ea38b0cd8a664b8d9c93f8fbc83a8
+    m_Address: PlaneFin5016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18e2a1afeb4dde64587244c313d824cd
+    m_Address: PlanePropeller2018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32e693dcad288364c9f570d7ddf08057
+    m_Address: PlaneWingL3014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 612999cd98d7fa34aadb31259552e6d7
+    m_Address: PlaneSpurtR6013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38ab596a069f09242baaba45c715a643
+    m_Address: PlaneWingR4014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f5f047381b809e44a66b7b89bcbed97
+    m_Address: PlaneSpurtL6013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9407b2da7561f8a419ccd71d52ac5b27
+    m_Address: PlaneSpurtR6017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94b4e3ddb93bccb439f6123906c0576e
+    m_Address: PlaneSpurtL6017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd3c04553f186974ba2099582a75bf3a
+    m_Address: PlaneFin5017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab501a4d41c9f304781a400b776c547a
+    m_Address: PlaneBody1016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca47133d35c33014f96ee7373d5f0e58
+    m_Address: PlanePropeller2016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d3dd01917b0ca6488f15ed0dc1e2e5f
+    m_Address: PlaneWingL3019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c65d3cc7cdb55964588f5d474f3d8e52
+    m_Address: PlaneWingR4019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cce91f4d19a13cc448090f08a92ccdca
+    m_Address: PlanePropeller2015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dff4973360b0db64c8700a590d1e7d4c
+    m_Address: PlaneWingR4018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 288892bfca14b984db8a8c40c83f833d
+    m_Address: PlaneSpurtL6018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56e9ad3e120ce044e84c4837dde1b936
+    m_Address: PlaneSpurtR6018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8d6f4878c761fc4aab69f5bc7a2d674
+    m_Address: PlaneWingL3018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 523a5fcf05c669744ab8800b60af92a3
+    m_Address: PlaneBody1017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a18d138a668c0874f917228991632537
+    m_Address: PlaneFin5018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fe5a58dd6d03404cbd9edc740831042
+    m_Address: PlaneFin5019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 901e13a71e7b743409ca8b80d7e0554a
+    m_Address: PlaneWingL3017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d498c4c6dbf169469e17afd2ce4deaa
+    m_Address: PlaneWingR4017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6ee87cd36011dc4bbb2736d3e583b93
+    m_Address: PlaneBody1018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49a506de78154204fa2d6c71d7ab50a4
+    m_Address: PlaneSpurtR6009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 335b812906d7d4f44aad42b4dca2f859
+    m_Address: PlaneSpurtL6009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc7accc12d8ce5b4d98d8137fe02c881
+    m_Address: PlanePropeller2017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93066d5296afc614db53ecd45f6fc29d
+    m_Address: PlaneSpurtR6004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a5bcafd35d511549b0e7d72677b7911
+    m_Address: PlaneSpurtL6004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e7283358a1aa20439a9b1144b2a063e
+    m_Address: PlaneWingL3013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b8c74144fb378f409ba502701f1be18
+    m_Address: PlaneFin5013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08e75faed7aa7c94699624c1049b104f
+    m_Address: PlanePropeller2008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7cbb2429af253a418edce40ecd0dfd2
+    m_Address: PlaneWingR4013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43aa9c71fe51b394aa988f3c2d0ea1b8
+    m_Address: PlaneBody1009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81a0fdcb47a323b408c093b6c5284bf0
+    m_Address: PlaneFin5014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 096203f3b785d4245a5e69dc5e35a1e0
+    m_Address: PlaneWingR4012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abad0e88560d51b48b06eac828d6e92d
+    m_Address: PlanePropeller2009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d91784289d33bed439ef92d886534b22
+    m_Address: PlaneWingL3012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff0ef689c8eb0684fba78f61ba465f57
+    m_Address: PlaneSpurtL6014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e7869467cba4d04f8f256f65b7d68a9
+    m_Address: PlaneBody1019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2f22a8c72dfea9499b0c74aaae1dd63
+    m_Address: PlaneSpurtR6014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f8e31b35fc7de7438d472078494dad1
+    m_Address: PlaneSpurtR6019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1645f55c6347ec040b06bca1f5789d51
+    m_Address: PlaneBody1014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d249a294b50384faba0ef89a8094b1
+    m_Address: PlaneSpurtL6019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e250a683311f034099a2640bfbd65e4
+    m_Address: PlaneFin5009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86eabd6f1bd9f7b4696232b1537d4bbe
+    m_Address: PlanePropeller2019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3418feb36c6dcb44e81cecd15b9689bb
+    m_Address: PlaneWingR4016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18940c7598ef1984d87fa3736bc226eb
+    m_Address: PlaneWingL3016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9c43100cc61e80a4593e890db03b13aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1b1d4433972b4e941a7c28698526f9b9, type: 2}
+    - {fileID: 11400000, guid: 1f290e3eb5be5a04db3485a92afaead9, type: 2}

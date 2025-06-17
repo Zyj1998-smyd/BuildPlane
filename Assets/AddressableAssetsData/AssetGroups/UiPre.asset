@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UiPre
+  m_EditorClassIdentifier: 
+  m_GroupName: UiPre
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dc6889a9c4f738642b362c4ce7c9a547
+  m_SerializeEntries:
+  - m_GUID: 47b04fc23ba26cc41ac086eff16b9ffc
+    m_Address: CanvasGloba
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 683ff55c65b37f8479a5d4a931429005
+    m_Address: GuideBattle1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c365424bc59caa4cbb4f8de0c368613
+    m_Address: OpenBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40f26140f6a3e334a9edb7a3f82a55a4
+    m_Address: PopSet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25ed44f07d84aeb45bae13388fb57132
+    m_Address: PopOpenBox
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68a28c21c680e8d4584c5b3cc47c11c6
+    m_Address: PopFollow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fe9298458c93b744a9d6ac31f85bb0a
+    m_Address: PopCall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a66b8aea00cb1f74780bc52130cfadfc
+    m_Address: PageTrain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdfb7cb3cb8163a498c5f5dc5c4c320f
+    m_Address: PageShop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b339f1ba618c31042ab881eada028cfd
+    m_Address: PageRank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20c51f75abd55d7408e4207db1f4cfe6
+    m_Address: PageBuild
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 698a3d6f2b6649c459820984c2d895d7
+    m_Address: PaintingFrame
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7faf178142e85df4eabd2137298aedbe
+    m_Address: PopRaffle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57817860b9e1d84469196fce8396663e
+    m_Address: PopSign
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e1c16ee7ac52f04f93ae26f56bcd210
+    m_Address: PopTask
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fe34ea69e1d56d4a81fd4cfb415db5a
+    m_Address: GuideMain1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8e51c725f1fd2345aaf76d4dbcc2df7
+    m_Address: GuideBattle2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eaa68e9ee9079a4d91265dfc48513d6
+    m_Address: ClockIn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21e5a46a059716f428f69a2d761301fe
+    m_Address: CityLogo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2797f73502dccb744b78486698b7242f
+    m_Address: PopClockIn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49628eff297840740b24bbdb801416d4
+    m_Address: PopMassage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65f514911ff4c6b47a117536e117f0db
+    m_Address: PopGM
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9c43100cc61e80a4593e890db03b13aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 23080274f83eaa34991e854aa70cbb3e, type: 2}
+    - {fileID: 11400000, guid: d1fbf95f6b3d1e749a0aa6f47a0dcc32, type: 2}

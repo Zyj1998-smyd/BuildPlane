@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Launcher
+  m_EditorClassIdentifier: 
+  m_GroupName: Launcher
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f173410c95a24da49a795f968bcc3b24
+  m_SerializeEntries:
+  - m_GUID: 12363c827e35b8144b9bb21650fac22f
+    m_Address: Launcher1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6247196cd0eba3243b4f703796eacd55
+    m_Address: Launcher5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 546e1101875ce7847a9fa38cb2069fd8
+    m_Address: Launcher2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f82af38ab6223cb48951908945b9119b
+    m_Address: Launcher4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7065292dc9e5bd44914a644816f5d3c
+    m_Address: Launcher3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9f4b2d0dc1bb6241be4ce5be6bea4ce
+    m_Address: SpeedBoard3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46b8cb065c1324c44a31ccbdcf2b71cf
+    m_Address: SpeedBoard5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a9c7188bde18f44cabdc34e544d7492
+    m_Address: SpeedBoard1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00f157be5a4929344911d59edf1b2910
+    m_Address: SpeedBoard2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85377101472c1fb4783897feedbc72b0
+    m_Address: SpeedBoard4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9c43100cc61e80a4593e890db03b13aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b4ae9d874d00c024bb2cf6a08dafcd0f, type: 2}
+    - {fileID: 11400000, guid: d5167ff7054dadd4cae6844f3a1e11e7, type: 2}

@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MatTexs
+  m_EditorClassIdentifier: 
+  m_GroupName: MatTexs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 93d3a0bd8ff93bb499c0340ba9c2f7ab
+  m_SerializeEntries:
+  - m_GUID: b64a40d985ae2e94da7f27afdf7ae202
+    m_Address: MainTex2_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83350a241ba789244bfc7c3a38e4ffa5
+    m_Address: MatcapTex1_7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be7878f78a366c1409846415a47302c3
+    m_Address: MatcapTex1_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e9101c9efcda7046a81af736e7f05a0
+    m_Address: MatcapTex1_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9451b46c53518064ba9ab20d54f079ab
+    m_Address: MatcapTex2_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f1e43ad530935644bd1fe419e478cd6
+    m_Address: MainTex2_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a485a0f9594d904eaf8d4c1ff3e7b77
+    m_Address: MainTex0_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8314336b88df3864baf3cb048fa653cf
+    m_Address: MatcapTex0_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c011e90c535d7e84993aee85d22641f1
+    m_Address: MatcapTex1_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b435d1383ffa6b94dbaed7ed47890de1
+    m_Address: MatcapTex1_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32ac2fd463054b94e81abb784f65f2f2
+    m_Address: MainTex2_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 411832a0621d66a45ab9a5889bfe4bee
+    m_Address: MatcapTex1_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a00f7d54c6f28544a8477a31cc4d25a3
+    m_Address: MainTex2_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f648097e22b338647b36c62a5fc7a1d9
+    m_Address: MatcapTex1_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e67f7f56f6ce1f43b44d875798ffe8f
+    m_Address: MatcapTex1_8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 349595bd0ad4ef343b9f3051c275c5fe
+    m_Address: MatcapTex1_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 308342f744eadb944b7f36765c83a9b0
+    m_Address: MainTex2_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5a644e856a12454fb4fc0def77a537f
+    m_Address: MatcapTex0_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb56fce80083906428fd8c37f1e42c04
+    m_Address: MainTex2_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2677eb4af70d9b49b63a8e15980eb0c
+    m_Address: MatcapTex1_9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 349cf45a3fbfc334e889c3102d470a6c
+    m_Address: MatcapTex1_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c06e0ee87ec426e4ba19cb775417e73e
+    m_Address: MatcapTex1_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fa425b0161774844acfdebac1d6510e
+    m_Address: MatcapTex1_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbb73d09cb997284cb11f54b2a2922f4
+    m_Address: MainTex1_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9c43100cc61e80a4593e890db03b13aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5b1b17b25c6e7134eaccae3da4874601, type: 2}
+    - {fileID: 11400000, guid: f398fc73391ae7e49919bfba879afbfa, type: 2}
