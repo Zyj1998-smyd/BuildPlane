@@ -219,7 +219,7 @@ namespace GamePlay.Module.InternalPage
                 List<string[]> rankDatas = new List<string[]>();
                 int rankMeNum = -1;
                 int rankMeValue = 0;
-                string rankMeName = "未知";
+                string rankMeName = "Unknow";
                 if (DataHelper.CurUserInfoData.userProvince == "")
                 {
                     // 未获取到地理位置信息
@@ -249,7 +249,7 @@ namespace GamePlay.Module.InternalPage
                 _scrollListRankCity.SetList(rankDatas);
 
                 _rankMeNum_2.text = rankMeNum == -1 ? "---" : rankMeNum.ToString();
-                _rankMeScoreNum_2.text = new StringBuilder(ToolFunManager.GetText(rankMeValue, true) + "米").ToString();
+                _rankMeScoreNum_2.text = new StringBuilder(ToolFunManager.GetText(rankMeValue, true) + "Meter").ToString();
                 _rankMeNameTextCity.text = rankMeName;
             }
         }
@@ -270,7 +270,7 @@ namespace GamePlay.Module.InternalPage
                 _rankRoleTop3_Names[i].text = nickName != ""
                     ? ToolFunManager.LongStrDeal(nickName, 16, "...")
                     : "";
-                _rankRoleTop3_Score[i].text = new StringBuilder(ToolFunManager.GetText(rankValue, true) + "米").ToString();
+                _rankRoleTop3_Score[i].text = new StringBuilder(ToolFunManager.GetText(rankValue, true) + "Meter").ToString();
                 if (userAvatar != "")
                 {
                     StartCoroutine(ServerGetData.GetRemoteImg(userAvatar, sprite => { _rankRoleTop3_Heads[iTmp].sprite = sprite; }));

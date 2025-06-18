@@ -56,7 +56,7 @@ namespace GamePlay.Module.InternalPage.ItemPrefabs
             string rankName = data[1];
             string rankValue = data[2];
             _rankNameText.text = rankName;
-            _rankScoreText.text = new StringBuilder(ToolFunManager.GetText(int.Parse(rankValue), true) + "米").ToString();
+            _rankScoreText.text = new StringBuilder(ToolFunManager.GetText(int.Parse(rankValue), true) + "Meters").ToString();
             
             _rankMe.SetActive(data[3] != "false");
             _rankNameText.color = data[3] != "false" ? Color.black : Color.white;

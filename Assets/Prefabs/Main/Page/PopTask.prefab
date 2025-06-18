@@ -2614,7 +2614,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "88:88 \u540E\u5237\u65B0\u4EFB\u52A1"
+  m_text: 88:88 Refresh Task
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bf9e541da0aa8ea4b972c2947a6af10a, type: 2}
   m_sharedMaterial: {fileID: 866304609616422274, guid: bf9e541da0aa8ea4b972c2947a6af10a,
@@ -7703,8 +7703,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 506, y: 105}
+  m_AnchoredPosition: {x: 0, y: -1}
+  m_SizeDelta: {x: 506, y: 121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2429347385194384340
 CanvasRenderer:

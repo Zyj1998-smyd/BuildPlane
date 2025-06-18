@@ -170,7 +170,7 @@ namespace GamePlay.Module.InternalPage
             if (subTime <= 0)
             {
                 // 自动刷新时间到了 执行自动刷新
-                _refreshTimeText.text = "00:00:00后自动刷新";
+                _refreshTimeText.text = "00:00:00 Auto Flushed";
                 RunRefreshShopEquipments();
             }
             else
@@ -179,7 +179,7 @@ namespace GamePlay.Module.InternalPage
                 int hour = (int)(subTime / 60 / 60);
                 int minute = (int)(subTime / 60 % 60);
                 int second = (int)(subTime % 60);
-                _refreshTimeText.text = new StringBuilder($"{hour:D2}:{minute:D2}:{second:D2}" + "后自动刷新").ToString();
+                _refreshTimeText.text = new StringBuilder($"{hour:D2}:{minute:D2}:{second:D2}" + "Auto Flushed").ToString();
 
                 _timeNum = (int)subTime;
                 _ = RefreshTime();
@@ -199,7 +199,7 @@ namespace GamePlay.Module.InternalPage
                 int hour = _timeNum / 60 / 60;
                 int minute = _timeNum / 60 % 60;
                 int second = _timeNum % 60;
-                _refreshTimeText.text = new StringBuilder($"{hour:D2}:{minute:D2}:{second:D2}" + "后自动刷新").ToString();
+                _refreshTimeText.text = new StringBuilder($"{hour:D2}:{minute:D2}:{second:D2}" + "Auto Flushed").ToString();
                 _timeNum -= 1;
 
                 await UniTask.Delay(1000, true, cancellationToken: _cancellationToken.Token);
@@ -207,7 +207,7 @@ namespace GamePlay.Module.InternalPage
 
             // 倒计时结束 执行自动刷新
             _timeNum = 0;
-            _refreshTimeText.text = "00:00:00后自动刷新";
+            _refreshTimeText.text = "00:00:00 Auto Flushed";
             RunRefreshShopEquipments();
         }
 
@@ -374,7 +374,7 @@ namespace GamePlay.Module.InternalPage
         {
             AudioHandler._instance.PlayAudio(GameGlobalManager._instance.audioBtnClick);
             DataHelper.CurReportDf_adScene = "ShopLuckRefresh";
-            GameSdkManager._instance._sdkScript.VideoControl("部件商店幸运刷新", () =>
+            GameSdkManager._instance._sdkScript.VideoControl("Part Shop Flushed", () =>
             {
                 List<string> modifyKeys = new List<string>();
                 // 刷新商店出售装备配件刷新幸运值

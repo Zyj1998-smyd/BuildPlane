@@ -359,13 +359,13 @@ namespace GamePlay.Module.InternalPage
         /// </summary>
         private void RefreshInfo()
         {
-            _distanceNumText.text = new StringBuilder("最远飞行距离：" + ToolFunManager.GetText(DataHelper.CurUserInfoData.distanceRecord, true) + "米").ToString();
+            _distanceNumText.text = new StringBuilder("Most Fly Distance：" + ToolFunManager.GetText(DataHelper.CurUserInfoData.distanceRecord, true) + "Meters").ToString();
 
             ShopConfig shopConfig = ConfigManager.Instance.ShopConfigDict[9999];
             int targetNum = shopConfig.Limit;
 
             int subNum = targetNum - DataHelper.CurUserInfoData.boxGetFlyDis;
-            _rewardBoxValueText.text = new StringBuilder("再飞" + subNum + "米可获得宝箱").ToString();
+            _rewardBoxValueText.text = new StringBuilder("Fly More" + subNum + "Meters Can Get Rewards").ToString();
             _rewardBoxBar.fillAmount = 1 - ((float)subNum / targetNum);
 
             int boxGetLevelTmp = DataHelper.CurUserInfoData.boxGetLevel;
@@ -625,11 +625,11 @@ namespace GamePlay.Module.InternalPage
                 if (DataHelper.CurUserInfoData.userProvince != "")
                 {
                     int rankNum = rankProvinceNames.IndexOf(DataHelper.CurUserInfoData.userProvince) + 1;
-                    _myCityRankText.text = new StringBuilder("我的地区排名：第" + rankNum + "名").ToString();
+                    _myCityRankText.text = new StringBuilder("My regional rankings：Rank " + rankNum).ToString();
                 }
                 else
                 {
-                    _myCityRankText.text = "尚未获得地区信息";
+                    _myCityRankText.text = "Regional information is not yet available";
                 }
             });
         }
@@ -655,8 +655,8 @@ namespace GamePlay.Module.InternalPage
                 }
 
                 _myRankText.text = rankMeNum == -1
-                    ? "我的全国排名：未上榜"
-                    : new StringBuilder("我的全国排名：第" + rankMeNum + "名").ToString();
+                    ? "My Global Ranking: Not on the list"
+                    : new StringBuilder("My Global Ranking: Rank " + rankMeNum).ToString();
             });
         }
 
@@ -756,7 +756,7 @@ namespace GamePlay.Module.InternalPage
         {
             if (DataHelper.CurLevelNum == 1)
             {
-                GameGlobalManager._instance.ShowTips("当前已经是第一个城市");
+                GameGlobalManager._instance.ShowTips("Is First City");
                 return;
             }
 
@@ -773,13 +773,13 @@ namespace GamePlay.Module.InternalPage
         {
             if (DataHelper.CurLevelNum == 10)
             {
-                GameGlobalManager._instance.ShowTips("开发组新场景加急制作中");
+                GameGlobalManager._instance.ShowTips("Comming Soon");
                 return;
             }
             
             if (DataHelper.CurLevelNum >= DataHelper.CurUserInfoData.curLevelNum)
             {
-                GameGlobalManager._instance.ShowTips("需要通过当前城市解锁");
+                GameGlobalManager._instance.ShowTips("Need Pass Current City");
                 return;
             }
 
