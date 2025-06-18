@@ -117,7 +117,7 @@ namespace GamePlay.Battle
 
         private GameObject qiZi;
 
-        internal readonly string[] cityNames = { "Area1", "Area2", "Area3", "Area4", "Area5", "Area6", "Area7", "Area8", "Area9", "Area10", "Area11", "Area12", "Area13", "Area14", "Area15" };
+        internal readonly string[] cityNames = { "南京", "成都", "哈尔滨", "北京", "广州", "西安", "上海", "杭州", "长沙", "济南", "重庆", "郑州", "香港", "澳门", "台北" };
 
         private void Awake()
         {
@@ -153,7 +153,7 @@ namespace GamePlay.Battle
             int loadResNum = 15; // 加载步数
             DataHelper.CurRunScene = "Battle";
             GameGlobalManager._instance.SetCanvasUiMain();
-            //GameGlobalManager._instance.SetCanvasUiMainOpenBox();
+            GameGlobalManager._instance.SetCanvasUiMainOpenBox();
             if (DataHelper.isRootLoad)
             {
                 DataHelper.isRootLoad = false;

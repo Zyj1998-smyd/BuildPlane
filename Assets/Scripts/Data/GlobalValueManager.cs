@@ -144,10 +144,10 @@ namespace Data
         /** 机器人昵称 */
         public static readonly List<string> NickNames = new List<string>(30)
         {
-            "Christian", "MollyJohnston", "CityNewYork", "KenC@mp", "Fish", "Hidi", "MaxTrump", "SummerPeggy", 
-            "Shizukalovesbath", "don'tknowcalled", "DowntimeGirl", "YaoYao", "Yang", "Jonathan", "1Guy", "EndlessWork",
-            "CupOfTea", "Hi!Chocolate", "Mangooo", "GirlInPic", "WaterColor", "FarAwayMoon", "OverDraw", "SouthPart", 
-            "DolaADream", "elf!_soso", "LaughHappy", "YourKeyBoard", "AAAFakeSho", "PatrickStar"
+            "醉酒的蝴蝶", "怎么没把你淹死", "小兮Cindy在路上", "哑巴说_爱", "粉红少女啤", "上学威龙", "智妍", "佩琪的夏天", 
+            "静香爱洗澡", "不知道叫什么名字", "宕机少女", "瑶瑶", "阳阳", "Jonathan", "尹子", "做不完的作业",
+            "淡茶一杯寄相思", "Hi!Chocolate", "Mangooo", "爱画画的小姐姐", "明眸水色", "千里共婵娟", "傲气一世", "城南大宝贝", 
+            "哆啦有A梦", "妖精!_也行吧", "笑口常开", "烟斗男", "AAA莆田硬货", "魔人海星欧"
         };
 
         /** 飞机部件发光颜色列表 跟涂装一一对应 */

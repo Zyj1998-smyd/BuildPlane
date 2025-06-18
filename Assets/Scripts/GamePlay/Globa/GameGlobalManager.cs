@@ -132,20 +132,11 @@ namespace GamePlay.Globa
 
         public void SetCanvasUiMainOpenBox(Camera cameraTmp = null)
         {
-            Debug.Log(1);
-            
             if (_globalOpenBox.canvasMe.worldCamera) return;
             if (!cameraTmp)
-            {
-                Debug.Log(2);
                 _globalOpenBox.canvasMe.worldCamera = GameObject.Find("/CamUi2D").GetComponent<Camera>();
-            }
             else
-            {
-                Debug.Log(3);
                 _globalOpenBox.canvasMe.worldCamera = cameraTmp;
-            }
-           
         }
 
         public void OpenBox(int boxId)

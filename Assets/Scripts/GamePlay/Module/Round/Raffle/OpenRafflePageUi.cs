@@ -314,19 +314,17 @@ namespace GamePlay.Module.Round.Raffle
                     if (data.luckNum >= 10)
                     {
                         int num = 20 - data.luckNum;
-                        
-                        
-                        _infoText.text = new StringBuilder("Re-spin <color=#F6D200>"+num+"Times </color> Get at least a treasure chest of Deluxe quality or higher!").ToString();
+                        _infoText.text = new StringBuilder("再转动<color=#F6D200>" + num + "次转盘</color>\n至少获得豪华品质以上部件宝箱奖励！").ToString();
                     }
                     else if (data.luckNum >= 5)
                     {
                         int num = 10 - data.luckNum;
-                        _infoText.text = new StringBuilder("Re-spin <color=#F6D200>"+num+"Times </color> Get at least a treasure chest of Fine quality or higher!").ToString();
+                        _infoText.text = new StringBuilder("再转动<color=#F6D200>" + num + "次转盘</color>\n至少获得精品品质以上部件宝箱奖励！").ToString();
                     }
                     else
                     {
                         int num = 5 - data.luckNum;
-                        _infoText.text = new StringBuilder("Re-spin <color=#F6D200>"+num+"Times </color> Get at least a treasure chest!").ToString();
+                        _infoText.text = new StringBuilder("再转动<color=#F6D200>" + num + "次转盘</color>\n必定获得宝箱奖励！").ToString();
                     }
                 }
             }

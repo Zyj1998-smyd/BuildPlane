@@ -166,7 +166,7 @@ namespace GamePlay.Module.OpenBox
             long subTime = nextTime - ToolFunManager.GetCurrTime();
             int minute = (int)(subTime / 60 % 60);
             int second = (int)(subTime % 60);
-            _timeNumText.text = new StringBuilder("Left Time:" + $"{minute:D2}:{second:D2}").ToString();
+            _timeNumText.text = new StringBuilder("解锁剩余时间:" + $"{minute:D2}分钟{second:D2}秒").ToString();
             
             _timeNum = (int)subTime;
             _ = RefreshTime();
@@ -185,7 +185,7 @@ namespace GamePlay.Module.OpenBox
             {
                 int minute = _timeNum / 60 % 60;
                 int second = _timeNum % 60;
-                _timeNumText.text = new StringBuilder("Left Time:" + $"{minute:D2}:{second:D2}").ToString();
+                _timeNumText.text = new StringBuilder("解锁剩余时间:" + $"{minute:D2}分钟{second:D2}秒").ToString();
                 _timeNum -= 1;
                 _openNowGemNum = Mathf.FloorToInt(((float)_timeNum / (_openNowTimeNum * 60)) * openNowGemNum);
                 _btnOpenNowGemNumText_advance.text = _openNowGemNum.ToString();

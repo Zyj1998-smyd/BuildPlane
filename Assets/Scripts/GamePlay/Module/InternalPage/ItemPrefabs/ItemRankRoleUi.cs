@@ -48,8 +48,8 @@ namespace GamePlay.Module.InternalPage.ItemPrefabs
             float rankValue = rankDisUserData.distance;
             _rankNameText.text = nickName != ""
                 ? ToolFunManager.LongStrDeal(nickName, 16, "...")
-                : ToolFunManager.LongStrDeal(new StringBuilder("User" + Random.Range(10000, 100000)).ToString(), 16, "...");
-            _rankScoreText.text = new StringBuilder(ToolFunManager.GetText(rankValue, true) + "meters").ToString();
+                : ToolFunManager.LongStrDeal(new StringBuilder("游客" + Random.Range(10000, 100000)).ToString(), 16, "...");
+            _rankScoreText.text = new StringBuilder(ToolFunManager.GetText(rankValue, true) + "米").ToString();
             if (userAvatar != "")
             {
                 StartCoroutine(ServerGetData.GetRemoteImg(userAvatar, sprite => { _haedImage.sprite = sprite; }));

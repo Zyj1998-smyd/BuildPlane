@@ -1,138 +1,138 @@
 [
   {
     "ID": 1,
-    "name": "Area1"
+    "name": "北京"
   },
   {
     "ID": 2,
-    "name": "Area2"
+    "name": "天津"
   },
   {
     "ID": 3,
-    "name": "Area3"
+    "name": "上海"
   },
   {
     "ID": 4,
-    "name": "Area4"
+    "name": "重庆"
   },
   {
     "ID": 5,
-    "name": "Area5"
+    "name": "香港"
   },
   {
     "ID": 6,
-    "name": "Area6"
+    "name": "澳门"
   },
   {
     "ID": 7,
-    "name": "Area7"
+    "name": "新疆"
   },
   {
     "ID": 8,
-    "name": "Area8"
+    "name": "西藏"
   },
   {
     "ID": 9,
-    "name": "Area9"
+    "name": "广西"
   },
   {
     "ID": 10,
-    "name": "Area10"
+    "name": "宁夏"
   },
   {
     "ID": 11,
-    "name": "Area11"
+    "name": "内蒙古"
   },
   {
     "ID": 12,
-    "name": "Area12"
+    "name": "湖南"
   },
   {
     "ID": 13,
-    "name": "Area13"
+    "name": "台湾"
   },
   {
     "ID": 14,
-    "name": "Area14"
+    "name": "海南"
   },
   {
     "ID": 15,
-    "name": "Area15"
+    "name": "云南"
   },
   {
     "ID": 16,
-    "name": "Area16"
+    "name": "广东"
   },
   {
     "ID": 17,
-    "name": "Area17"
+    "name": "福建"
   },
   {
     "ID": 18,
-    "name": "Area18"
+    "name": "贵州"
   },
   {
     "ID": 19,
-    "name": "Area19"
+    "name": "江西"
   },
   {
     "ID": 20,
-    "name": "Area20"
+    "name": "浙江"
   },
   {
     "ID": 21,
-    "name": "Area21"
+    "name": "四川"
   },
   {
     "ID": 22,
-    "name": "Area22"
+    "name": "湖北"
   },
   {
     "ID": 23,
-    "name": "Area23"
+    "name": "安徽"
   },
   {
     "ID": 24,
-    "name": "Area24"
+    "name": "江苏"
   },
   {
     "ID": 25,
-    "name": "Area25"
+    "name": "青海"
   },
   {
     "ID": 26,
-    "name": "Area26"
+    "name": "甘肃"
   },
   {
     "ID": 27,
-    "name": "Area27"
+    "name": "陕西"
   },
   {
     "ID": 28,
-    "name": "Area28"
+    "name": "山西"
   },
   {
     "ID": 29,
-    "name": "Area29"
+    "name": "河南"
   },
   {
     "ID": 30,
-    "name": "Area30"
+    "name": "河北"
   },
   {
     "ID": 31,
-    "name": "Area31"
+    "name": "山东"
   },
   {
     "ID": 32,
-    "name": "Area32"
+    "name": "辽宁"
   },
   {
     "ID": 33,
-    "name": "Area33"
+    "name": "吉林"
   },
   {
     "ID": 34,
-    "name": "Area34"
+    "name": "黑龙江"
   }
 ]

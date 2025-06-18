@@ -72,12 +72,12 @@ namespace GamePlay.Battle.Guide
                     guiAni.gameObject.SetActive(true);
                     guiAni.Play("GuideBattle1Hand1");
                     
-                    _talkText.text = "Drag the plane down to pull the elastic cord.";
+                    _talkText.text = "向下拖动飞机，拉动弹力绳。";
                     break;
                 case 1:
                     guiAni.gameObject.SetActive(false);
                     
-                    _talkText.text = "Release your finger to launch and take off!";
+                    _talkText.text = "松开手指，发射起飞！";
                     break;
                 case 2:
                     _cancellationToken = new CancellationTokenSource();
@@ -111,7 +111,7 @@ namespace GamePlay.Battle.Guide
 
             Time.timeScale = 0;
             
-            _talkText.text = "Slide the joystick left and right to control the direction of the plane.";
+            _talkText.text = "左右滑动摇杆，可以控制飞机的前进方向。";
             _audio.clip = audioGuideStep[1];
             _audio.Play();
             
@@ -128,7 +128,7 @@ namespace GamePlay.Battle.Guide
         {
             touchObj.SetActive(false);
             
-            _talkText.text = "Push the joystick up to pull up the plane and delay the landing time.";
+            _talkText.text = "向上推动摇杆，可以拉起飞机，延迟落地时间。";
             _audio.clip = audioGuideStep[2];
             _audio.Play();
             
