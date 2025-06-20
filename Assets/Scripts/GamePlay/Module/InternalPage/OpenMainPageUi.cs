@@ -200,7 +200,7 @@ namespace GamePlay.Module.InternalPage
             _btnRaffleRedPoint = _btnRaffle.transform.Find("BtnRaffle/RedPoint").gameObject;
             _btnRaffle.GetComponent<Button>().onClick.AddListener(OnBtnRaffle);
             
-            _btnTask = transform.Find("BtnLs/BtnTask").gameObject;
+            _btnTask = transform.Find("BtnRs/BtnTask").gameObject;
             _btnTaskRedPoint = _btnTask.transform.Find("RedPoint").gameObject;
             _btnTask.GetComponent<Button>().onClick.AddListener(OnBtnTask);
             

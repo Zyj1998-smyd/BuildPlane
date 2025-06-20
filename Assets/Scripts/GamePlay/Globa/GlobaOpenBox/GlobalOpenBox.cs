@@ -138,7 +138,7 @@ namespace GamePlay.Globa.GlobaOpenBox
         private void OnBtnGetAdditional()
         {
             DataHelper.CurReportDf_adScene = "GetBoxExtra";
-            GameSdkManager._instance._sdkScript.VideoControl("OpenBoxGetExtraPart", () =>
+            GameSdkManager._instance._sdkScript.VideoControl("开宝箱获得额外部件", () =>
             {
                 _additionalObj.SetActive(false);
                 _rewardItemObj.SetActive(false);
@@ -358,7 +358,7 @@ namespace GamePlay.Globa.GlobaOpenBox
             await UniTask.Delay((int)timeTmp, cancellationToken: _cancellationToken.Token);
 
             _btnOpen.SetActive(true);
-            _btnSkip.SetActive(true);
+            //_btnSkip.SetActive(true);
         }
 
         /// <summary>

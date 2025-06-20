@@ -186,7 +186,7 @@ namespace GamePlay.Battle.Ui
             _boxFullObj = transform.Find("BoxFull").gameObject;
             _boxFullObj.SetActive(false);
             GameObject rankObj = transform.Find("Rank").gameObject;
-            rankObj.SetActive(true);
+            rankObj.SetActive(false);
             _rankObj_1 = rankObj.transform.Find("Rank1").gameObject;
             _rankObj_1.SetActive(false);
             _rankObj_2 = rankObj.transform.Find("Rank2").gameObject;
@@ -494,7 +494,7 @@ namespace GamePlay.Battle.Ui
             {
                 // 新手引导流程
                 AudioHandler._instance.PlayAudio(GameGlobalManager._instance.audioGetItem);
-                _rewardBoxTipText.text = "Get the box!!!";
+                _rewardBoxTipText.text = "恭喜获得宝箱!!!";
                 _rewardBoxBar.fillAmount = 1;
                 for (int i = 0; i < _rewardBoxLights.Length; i++)
                 {
@@ -510,7 +510,7 @@ namespace GamePlay.Battle.Ui
                 if (_showProgress == 0)
                 {
                     AudioHandler._instance.PlayAudio(GameGlobalManager._instance.audioGetItem);
-                    _rewardBoxTipText.text = "Get the box!!!";
+                    _rewardBoxTipText.text = "恭喜获得宝箱!!!";
                     _rewardBoxBar.fillAmount = 1;
                     for (int i = 0; i < _rewardBoxLights.Length; i++)
                     {
@@ -521,7 +521,7 @@ namespace GamePlay.Battle.Ui
                 else
                 {
                     AudioHandler._instance.PlayAudio(BattleManager._instance.audioAccountNext);
-                    _rewardBoxTipText.text = new StringBuilder("Fly More " + _showProgress + "M Can Get Rewards").ToString();
+                    _rewardBoxTipText.text = new StringBuilder("再飞" + _showProgress + "米可获得宝箱").ToString();
                     _rewardBoxBar.fillAmount = 1 - ((float)_showProgress / ConfigManager.Instance.ShopConfigDict[9999].Limit);
                 }
 
@@ -598,7 +598,7 @@ namespace GamePlay.Battle.Ui
                 int rankMeIndex = -1;
                 string rankNumTmp = "---";
                 string rankNameTmp = DataHelper.CurUserInfoData.userName;
-                rankNameTmp = rankNameTmp == "" ? "Unknown" : rankNameTmp;
+                rankNameTmp = rankNameTmp == "" ? "未授权用户" : rankNameTmp;
                 float rankScoreTmp = DataHelper.CurUserInfoData.scoreDistanceMax;
                 string rankHeadTmp = "";
                 for (int i = 0; i < levelUserDatas.Count; i++)
@@ -622,7 +622,7 @@ namespace GamePlay.Battle.Ui
                         _rankItemMeUis[i].SetActive(i == rankMeIndex);
                         _rankItemNameUis[i].color = i == rankMeIndex ? Color.black : Color.white;
                         _rankItemNameUis[i].text = levelUserDatas[i].nickName;
-                        _rankItemScoreUis[i].text = new StringBuilder(ToolFunManager.GetText(levelUserDatas[i].distance, true) + "M").ToString();
+                        _rankItemScoreUis[i].text = new StringBuilder(ToolFunManager.GetText(levelUserDatas[i].distance, true) + "米").ToString();
                         if (levelUserDatas[i].userAvatar != "")
                         {
                             int iTmp = i;
@@ -637,7 +637,7 @@ namespace GamePlay.Battle.Ui
 
                 _rankMeNumText.text = rankNumTmp;
                 _rankMeName.text = ToolFunManager.LongStrDeal(rankNameTmp, 16, "...");
-                _rankMeScoreText.text = new StringBuilder(ToolFunManager.GetText(rankScoreTmp, true) + "M").ToString();
+                _rankMeScoreText.text = new StringBuilder(ToolFunManager.GetText(rankScoreTmp, true) + "米").ToString();
                 if (rankHeadTmp != "")
                 {
                     StartCoroutine(ServerGetData.GetRemoteImg(rankHeadTmp, sprite => _rankMeHead.sprite = sprite));
@@ -684,14 +684,14 @@ namespace GamePlay.Battle.Ui
                     _rankItemMeUis_city[i].SetActive(i == rankMeIndex);
                     _rankItemNameUis_city[i].color = i == rankMeIndex ? Color.black : Color.white;
                     _rankItemNameUis_city[i].text = provinceNames[i];
-                    _rankItemScoreUis_city[i].text = new StringBuilder(ToolFunManager.GetText(provinceNums[i], true) + "M").ToString();
+                    _rankItemScoreUis_city[i].text = new StringBuilder(ToolFunManager.GetText(provinceNums[i], true) + "米").ToString();
                 }
 
                 _rankMeNumText_city.text = rankMeIndex == -1 ? "---" : (rankMeIndex + 1).ToString();
-                _rankMeName_city.text = rankMeIndex == -1 ? "Unknown" : provinceNames[rankMeIndex];
+                _rankMeName_city.text = rankMeIndex == -1 ? "未知" : provinceNames[rankMeIndex];
                 _rankMeScoreText_city.text = rankMeIndex == -1
-                    ? "0M"
-                    : new StringBuilder(ToolFunManager.GetText(provinceNums[rankMeIndex], true) + "M").ToString();
+                    ? "0米"
+                    : new StringBuilder(ToolFunManager.GetText(provinceNums[rankMeIndex], true) + "米").ToString();
 
                 _scoreCityNameText.text = _rankMeName_city.text;
                 _scoreCityDisNumText.text = _rankMeScoreText_city.text;
@@ -707,13 +707,14 @@ namespace GamePlay.Battle.Ui
             if (_nextNum == 0)
             {
                 _nextNum = 1;
-                _ = AccountStep_2();
-            }
-            else
-            {
-                _nextNum = 2;
+               // _ = AccountStep_2();
                 _ = AccountStep_3();
             }
+            //else
+            //{
+            //    _nextNum = 2;
+            //    _ = AccountStep_3();
+            //}
         }
 
         /// <summary>
@@ -741,7 +742,7 @@ namespace GamePlay.Battle.Ui
             if (GameSdkManager._instance)
             {
                 DataHelper.CurReportDf_adScene = "AccountGoldMultiple";
-                GameSdkManager._instance._sdkScript.VideoControl("RewardCoinDouble", () =>
+                GameSdkManager._instance._sdkScript.VideoControl("结算金币加倍", () =>
                 {
                     successCb();
                     // 完成日常任务 观看X次广告 TaskID:2
