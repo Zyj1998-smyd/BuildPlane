@@ -7,6 +7,7 @@ using Common.LoadRes;
 using Common.Tool;
 using Data;
 using TMPro;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -42,19 +43,24 @@ namespace GamePlay.Battle.Ui
         private Animation goldAni;
         /** 金币数 */
         private TextMeshProUGUI goldNumText;
-        
+
         /** 城市名称 当前站/下一站 */
         internal TextMeshProUGUI cityNameNow, cityNameNew;
 
         internal UiCityLogo _uiCityLogo;
-        internal UiClockIn  _uiClockIn;
+        internal UiClockIn _uiClockIn;
+
+
+        private Transform Run1;
+        private Transform Run2;
+        private Transform Plane;
 
         /// <summary>
         /// 初始化
         /// </summary>
         internal void Initial()
         {
-             canvasTran = GameObject.Find("/Canvas2D").transform;
+            canvasTran = GameObject.Find("/Canvas2D").transform;
 
             _uiAccount = canvasTran.Find("Account").GetComponent<UiAccount>();
             _uiAccount.Initial();
@@ -68,6 +74,11 @@ namespace GamePlay.Battle.Ui
 
             infoOrderValue = infoObj.Find("OrderFrame/Value").GetComponent<Image>();
             infoOrderValue.fillAmount = 0;
+            Run1 = infoObj.Find("OrderFrame/Run1").GetComponent<Transform>();
+            Run2 = infoObj.Find("OrderFrame/Run2").GetComponent<Transform>();
+            Plane = infoObj.Find("OrderFrame/Plane").GetComponent<Transform>();
+            Plane.transform.position = new Vector3(math.lerp(Run1.position.x, Run2.position.x, 0), Plane.transform.position.y);
+
 
             distanceNumText = infoObj.Find("Distance").GetComponent<TextMeshProUGUI>();
             distanceNumText.text =
@@ -89,14 +100,14 @@ namespace GamePlay.Battle.Ui
             goldAni = infoObj.Find("Gold").GetComponent<Animation>();
             goldNumText = infoObj.Find("Gold/Num").GetComponent<TextMeshProUGUI>();
             goldNumText.text = "+0";
-            
-            cityNameNow = infoObj.Find("OrderFrame/Text1").GetComponent<TextMeshProUGUI>();
-            cityNameNow.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum - 1];
-            cityNameNew = infoObj.Find("OrderFrame/Text2").GetComponent<TextMeshProUGUI>();
-            if (DataHelper.CurLevelNum <= BattleManager._instance.cityNames.Length)
-            {
-                cityNameNew.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum];
-            }
+
+            //cityNameNow = infoObj.Find("OrderFrame/Text1").GetComponent<TextMeshProUGUI>();
+            //cityNameNow.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum - 1];
+            //cityNameNew = infoObj.Find("OrderFrame/Text2").GetComponent<TextMeshProUGUI>();
+            //if (DataHelper.CurLevelNum <= BattleManager._instance.cityNames.Length)
+            //{
+            //    cityNameNew.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum];
+            //}
 
             GreateClockIn();
         }
@@ -104,15 +115,15 @@ namespace GamePlay.Battle.Ui
         void OnEnable()
         {
             EventManager<Vector2>.Add(EnumButtonType.TouchJoystick, JoyInput);
-            EventManager<EnumButtonSign,Vector2>.Add(EnumButtonType.TouchScreenDown, ScreenInputDown);
-            EventManager<EnumButtonSign,Vector2>.Add(EnumButtonType.TouchScreenUp, ScreenInputUp);
+            EventManager<EnumButtonSign, Vector2>.Add(EnumButtonType.TouchScreenDown, ScreenInputDown);
+            EventManager<EnumButtonSign, Vector2>.Add(EnumButtonType.TouchScreenUp, ScreenInputUp);
         }
 
         void OnDisable()
         {
             EventManager<Vector2>.Remove(EnumButtonType.TouchJoystick, JoyInput);
-            EventManager<EnumButtonSign,Vector2>.Remove(EnumButtonType.TouchScreenDown, ScreenInputDown);
-            EventManager<EnumButtonSign,Vector2>.Remove(EnumButtonType.TouchScreenUp, ScreenInputUp);
+            EventManager<EnumButtonSign, Vector2>.Remove(EnumButtonType.TouchScreenDown, ScreenInputDown);
+            EventManager<EnumButtonSign, Vector2>.Remove(EnumButtonType.TouchScreenUp, ScreenInputUp);
         }
 
         /// <summary>
@@ -124,7 +135,11 @@ namespace GamePlay.Battle.Ui
                 new StringBuilder(ToolFunManager.GetText(
                         Mathf.FloorToInt(BattleManager._instance.scoreDistance) + BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + "M")
                     .ToString();
-            infoOrderValue.fillAmount = BattleManager._instance.scoreDistance / BattleManager._instance.endDis;
+
+            float distance = BattleManager._instance.scoreDistance / BattleManager._instance.endDis;
+            infoOrderValue.fillAmount = distance;
+           
+            Plane.transform.position = new Vector3(math.lerp(Run1.position.x, Run2.position.x, distance), Plane.transform.position.y);
 
             disNewRecord.SetActive(BattleManager._instance.scoreDistance + BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1) > DataHelper.CurUserInfoData.scoreDistanceMax);
         }
@@ -141,10 +156,10 @@ namespace GamePlay.Battle.Ui
 
         internal void RefreshSpeed()
         {
-            speedNumText.text = new StringBuilder(BattleManager._instance.nowSpeed +"M/H").ToString();
+            speedNumText.text = new StringBuilder(BattleManager._instance.nowSpeed + "M/H").ToString();
             _speedValue.fillAmount = Mathf.Lerp(_speedValue.fillAmount, (BattleManager._instance.nowSpeed / 100f) + 0.3f, 0.25f);
         }
-        
+
         internal void RefreshHeight()
         {
             heightNumText.text = new StringBuilder(BattleManager._instance.nowHeight + "M").ToString();
@@ -172,7 +187,7 @@ namespace GamePlay.Battle.Ui
                     GameObject objTmp = Instantiate(handleTmp, canvasTran);
                     _uiCityLogo = objTmp.GetComponent<UiCityLogo>();
                     _uiCityLogo.Initial();
-                    
+
                     cb();
                 });
         }
@@ -182,7 +197,7 @@ namespace GamePlay.Battle.Ui
             LoadResources.XXResourcesLoad("ClockIn",
                 handleTmp =>
                 {
-                    GameObject objTmp = Instantiate(handleTmp,canvasTran);
+                    GameObject objTmp = Instantiate(handleTmp, canvasTran);
                     _uiClockIn = objTmp.GetComponent<UiClockIn>();
                     _uiClockIn.Initial();
                 });
@@ -203,7 +218,7 @@ namespace GamePlay.Battle.Ui
                     break;
             }
         }
-        
+
         void ScreenInputUp(EnumButtonSign buttonSign, Vector2 touchPos)
         {
             switch (buttonSign)
@@ -246,15 +261,15 @@ namespace GamePlay.Battle.Ui
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
-                ScreenInputDown(EnumButtonSign.BtnSpurt,Vector2.zero);
+                ScreenInputDown(EnumButtonSign.BtnSpurt, Vector2.zero);
             }
             if (Input.GetKeyUp(KeyCode.A))
             {
-                ScreenInputUp(EnumButtonSign.BtnSpurt,Vector2.zero);
+                ScreenInputUp(EnumButtonSign.BtnSpurt, Vector2.zero);
             }
         }
 #endif
-        
-        
+
+
     }
 }

@@ -134,7 +134,10 @@ namespace GamePlay.Main
         private Transform _pageTran;
         /** 弹窗挂载节点 */
         private Transform _popTran;
-        
+
+        ////锁
+        private Transform Lock;
+
         /** UniTask异步信标 */
         private CancellationTokenSource _cancellationToken;
         
@@ -217,6 +220,9 @@ namespace GamePlay.Main
                 GameObject redPoint = menuOff.transform.Find("RedPoint").gameObject;
                 _redPoints[i] = redPoint;
             }
+            
+             Lock = uiCanvasRect.Find("Menu/Label5Off/Lock").transform;
+            Lock.gameObject.SetActive(true);
 
             _pageTran = uiCanvasRect.Find("Page");
             _popTran = uiCanvasRect.Find("Pop");
@@ -708,6 +714,15 @@ namespace GamePlay.Main
             }
             else
             {
+
+                if(DataHelper.CurLevelNum<=1)
+                {
+                    Lock.gameObject.SetActive(true);
+                    return;
+                }
+
+                //点击排行榜触发
+                Lock.gameObject.SetActive(false);
                 // 排行榜页签
                 GetUserInfo(() =>
                 {

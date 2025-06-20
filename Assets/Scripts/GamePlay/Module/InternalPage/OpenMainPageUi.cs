@@ -509,6 +509,7 @@ namespace GamePlay.Module.InternalPage
                 {
                     // 当前槽位有宝箱
                     _mainBoxTouchUis[i].gameObject.SetActive(true);
+                  
                     _boxTouchs[i] = true;
                     int minute = countDownTimes[i] / 60 % 60;
                     int second = countDownTimes[i] % 60;
@@ -518,7 +519,6 @@ namespace GamePlay.Module.InternalPage
                     _mainBoxTouchOpenUis[i].SetActive(i == clickOpenIndex);
                     _mainBoxTouchUnlockUis[i].SetActive(i == clickUnlockIndex);
                     _mainBoxTouchAdvanceUis[i].SetActive(i == clickAdvanceIndex);
-
                     if (boxTimes[i] != 0)
                     {
                         // 当前槽位宝箱已启动解锁
