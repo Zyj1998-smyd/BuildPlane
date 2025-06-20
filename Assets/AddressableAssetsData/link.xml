@@ -40,6 +40,7 @@
     <type fullname="GamePlay.Module.InternalPage.ItemPrefabs.ItemShopUi" preserve="all" />
     <type fullname="GamePlay.Module.InternalPage.OpenBuildPageUi" preserve="all" />
     <type fullname="GamePlay.Module.InternalPage.OpenMainPageUi" preserve="all" />
+    <type fullname="GamePlay.Module.InternalPage.OpenNamePageUi" preserve="all" />
     <type fullname="GamePlay.Module.InternalPage.OpenRankPageUi" preserve="all" />
     <type fullname="GamePlay.Module.InternalPage.OpenShopPageUi" preserve="all" />
     <type fullname="GamePlay.Module.InternalPage.OpenTrainPageUi" preserve="all" />
@@ -108,6 +109,7 @@
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
@@ -115,6 +117,11 @@
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />

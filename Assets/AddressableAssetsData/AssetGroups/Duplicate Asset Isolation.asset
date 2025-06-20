@@ -142,11 +142,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1144ed074a597e24fa4fef0cdd9d6470
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/RedPoint.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 11b82d8d3c9ab214c874bf69e91a96e2
     m_Address: Assets/Arts/3D/Plane/Plane8/PlaneSpurt8.psd
     m_ReadOnly: 0
@@ -249,11 +244,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1f3bf6e27677c6341bc96ed7dd18f5d7
     m_Address: Assets/Arts/2D/Ui/Main/Task/JianTou.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1f59d506f85e37b43b53a2e5d848546a
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Null1.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -487,11 +477,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3a232df098e7f6b469f97ec9fb7821ff
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Close.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3b1e95476b075e64f9d97b546fcab104
     m_Address: Assets/Arts/2D/Ui/Main/Shop/TittleText_2.psd
     m_ReadOnly: 0
@@ -552,11 +537,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4378e6839c61a364ab886b8a043ac579
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/BtnText3.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 43a89ad140fe626499791b34c25af76a
     m_Address: Assets/Arts/2D/Ui/Battle/Account/BtnText1.psd
     m_ReadOnly: 0
@@ -589,11 +569,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4934f7714c668374c9a98f8a018866ee
     m_Address: Assets/Arts/2D/Ui/Battle/Account/TittleWin1.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 49a94e8c9daf1254797a8fb951d075f8
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/TittleText1.psd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -749,11 +724,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 592966f7ff0104b42bfd1ce71cdbcfce
     m_Address: Assets/Arts/3D/Scene/Environment/TreeC/Tree_b.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5943870f2141df04f9ebb8cb7e54768f
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/TimeText.psd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1012,11 +982,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7c73f4cb848da7243abe1c9bb23c59f6
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/TittleText2.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7d6307dfeef7afc459f391f758af01dc
     m_Address: Assets/Arts/2D/Ui/Battle/Account/Null0.png
     m_ReadOnly: 0
@@ -1074,11 +1039,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8495eba204de0f749a36f71a84aa0098
     m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Ui_QuanBg.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 849950435e8d3b2489e3334a5390397e
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Raffle.psd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1447,11 +1407,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b7caca6f51e44c1499e28606d37d6268
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/BtnText2.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b8e34132a3d064c4ba727529677eb51f
     m_Address: Assets/Arts/3D/Box/Box.mat
     m_ReadOnly: 0
@@ -1489,11 +1444,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bccda324855f65b4181bdd4192bdc397
     m_Address: Assets/Arts/2D/Ui/Battle/BattleMain/Null1.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bd211e5ab33465b458001483b9bfec04
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Promulgate.psd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1539,11 +1489,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c404ef44e5c003b489ef6d3ab65e8c75
     m_Address: Assets/Arts/2D/Ui/Rank/Frame3.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c4a632bd6e6ceec43b7a5157de3601fc
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/BtnText1.psd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1644,11 +1589,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cf571542623cf694b9766509d94bdcc5
     m_Address: Assets/Arts/2D/Ui/Rank/FrameMain1.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d1881177ac4cd3a4fb9b6d26e8acbf5a
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Frame1.psd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1902,11 +1842,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f2ed590346f89e24e91904f13952c8ed
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Button1.psd
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f323f2f0b66bbf2449144ac2c4c9129c
     m_Address: Assets/Arts/3D/Scene/Environment/Ground/Ground4/Ground4_A.psd
     m_ReadOnly: 0
@@ -1959,11 +1894,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f8ec3babcbdb2f5489cc7cdc0cfc4614
     m_Address: Assets/Arts/3D/Scene/Environment/TreeD/Tree.fbx
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f9111a86bbbe8c04786cf6ae1acd8aae
-    m_Address: Assets/Arts/2D/Ui/Main/Raffle/Raffle2.psd
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

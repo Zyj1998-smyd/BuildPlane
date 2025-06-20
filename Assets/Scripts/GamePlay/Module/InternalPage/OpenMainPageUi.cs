@@ -326,7 +326,8 @@ namespace GamePlay.Module.InternalPage
         /// </summary>
         private void RefreshBtnCall()
         {
-            _btnCall.SetActive(DataHelper.CurUserInfoData.callRewardGet == 0 || DataHelper.CurUserInfoData.callRewardGet == 1);
+            _btnCall.SetActive(false);
+           // _btnCall.SetActive(DataHelper.CurUserInfoData.callRewardGet == 0 || DataHelper.CurUserInfoData.callRewardGet == 1);
             _btnCallRedPoint.SetActive(DataHelper.CurUserInfoData.callRewardGet == 0 || DataHelper.CurUserInfoData.callRewardGet == 1);
         }
 
@@ -359,7 +360,7 @@ namespace GamePlay.Module.InternalPage
         /// </summary>
         private void RefreshInfo()
         {
-            _distanceNumText.text = new StringBuilder("Most Fly Distance：" + ToolFunManager.GetText(DataHelper.CurUserInfoData.distanceRecord, true) + " M").ToString();
+            _distanceNumText.text = new StringBuilder("Best Fly Distance：" + ToolFunManager.GetText(DataHelper.CurUserInfoData.distanceRecord, true) + " M").ToString();
 
             ShopConfig shopConfig = ConfigManager.Instance.ShopConfigDict[9999];
             int targetNum = shopConfig.Limit;

@@ -707,14 +707,14 @@ namespace GamePlay.Battle.Ui
             if (_nextNum == 0)
             {
                 _nextNum = 1;
-               // _ = AccountStep_2();
+                // _ = AccountStep_2();
                 _ = AccountStep_3();
             }
-            //else
-            //{
-            //    _nextNum = 2;
-            //    _ = AccountStep_3();
-            //}
+            // else
+            // {
+            //     _nextNum = 2;
+            //     _ = AccountStep_3();
+            // }
         }
 
         /// <summary>

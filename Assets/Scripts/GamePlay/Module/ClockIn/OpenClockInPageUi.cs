@@ -104,7 +104,7 @@ namespace GamePlay.Module.ClockIn
             // 清空上次刷新的城市列表
             ClearCityList();
             // 刷新城市列表
-            int cityNum = 15;
+            int cityNum = 7;
             for (int i = 0; i < cityNum; i++)
             {
                 ItemCityUi itemCityUi = Instantiate(ItemCityPre, _cityListContent).GetComponent<ItemCityUi>();

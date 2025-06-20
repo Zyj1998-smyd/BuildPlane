@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Text;
+using Common.GameRoot;
 using Data;
 using GamePlay.Main;
 using TMPro;
@@ -14,8 +16,6 @@ namespace GamePlay.Module.InternalPage
         private TextMeshProUGUI _txtDes;
 
         private TMP_InputField _inputFieldName;
-        // private Button _btnRandomName;
-        // private Button _btnConfirm;
 
         private string[] nameRandom =
         {
@@ -93,9 +93,8 @@ namespace GamePlay.Module.InternalPage
             if (_inputFieldName.text != "")
             {
                 DataHelper.CurUserInfoData.userName = _inputFieldName.text;
-                _txtDes.text = "Name Set Success";
-                
-                MainManager._instance.StartNewUserGuide();
+                DataHelper.ModifyLocalData(new List<string>(1) { "userName" }, () => { _txtDes.text = "Name Set Success";});
+                GameRootLoad.Instance.StartLoad(DataHelper.nextSceneName);
                 CloseInternalPage();
             }
 

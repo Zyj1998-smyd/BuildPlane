@@ -233,27 +233,6 @@ namespace GamePlay.Main
             mainPageUi.Initial();
             _internalPageUis[2] = mainPageUi;
         }
-
-        public void StartNewUserGuide()
-        {
-            // 需要执行新手引导 弹窗不可能被打开 无需加载弹窗
-            // 新手引导预先给一个宝箱 宝箱打开时间设置为当前时间 + 宝箱打开持续时间 + 额外一分钟
-            long boxTime = ToolFunManager.GetCurrTime() - ConfigManager.Instance.RewardBoxConfigDict[100].OpenTime * 60 - 60;
-            List<string> modifyKeys = new List<string>();
-            DataHelper.CurUserInfoData.boxList[0] = new[] { "100", boxTime.ToString() };
-            modifyKeys.Add("boxsList");
-            DataHelper.CurUserInfoData.equipEquipments = new List<int>(GlobalValueManager.InitEquipments);
-            modifyKeys.Add("equipEquipments");
-            DataHelper.CurUserInfoData.equipments = new Dictionary<int, int>();
-            for (int i = 0; i < GlobalValueManager.InitEquipments.Count; i++)
-            {
-                DataHelper.CurUserInfoData.equipments.Add(GlobalValueManager.InitEquipments[i], 1);
-            }
-            modifyKeys.Add("equipments");
-            DataHelper.ModifyLocalData(modifyKeys, () => { });
-            // 加载新手引导
-            LoadGuideMain_1();
-        }
         
         private void Start()
         {
@@ -265,12 +244,23 @@ namespace GamePlay.Main
 
             if (DataHelper.CurUserInfoData.isNewUser == 0)
             {
-                LoadResources.XXResourcesLoad("PageName", handleTmp =>
+                // 需要执行新手引导 弹窗不可能被打开 无需加载弹窗
+                // 新手引导预先给一个宝箱 宝箱打开时间设置为当前时间 + 宝箱打开持续时间 + 额外一分钟
+                long boxTime = ToolFunManager.GetCurrTime() - ConfigManager.Instance.RewardBoxConfigDict[100].OpenTime * 60 - 60;
+                List<string> modifyKeys = new List<string>();
+                DataHelper.CurUserInfoData.boxList[0] = new[] { "100", boxTime.ToString() };
+                modifyKeys.Add("boxsList");
+                DataHelper.CurUserInfoData.equipEquipments = new List<int>(GlobalValueManager.InitEquipments);
+                modifyKeys.Add("equipEquipments");
+                DataHelper.CurUserInfoData.equipments = new Dictionary<int, int>();
+                for (int i = 0; i < GlobalValueManager.InitEquipments.Count; i++)
                 {
-                    GameObject pageTmp = Instantiate(handleTmp, _pageTran);
-                    InternalPageScript pageUi = pageTmp.GetComponent<InternalPageScript>();
-                    pageUi.Initial();
-                });
+                    DataHelper.CurUserInfoData.equipments.Add(GlobalValueManager.InitEquipments[i], 1);
+                }
+                modifyKeys.Add("equipments");
+                DataHelper.ModifyLocalData(modifyKeys, () => { });
+                // 加载新手引导
+                LoadGuideMain_1();
             }
             else
             {

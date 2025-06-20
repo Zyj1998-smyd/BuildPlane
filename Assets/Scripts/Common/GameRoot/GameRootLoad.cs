@@ -3,6 +3,7 @@ using System.Threading;
 using Common.Event;
 using Common.Event.CustomEnum;
 using Cysharp.Threading.Tasks;
+using GamePlay.Module.InternalPage;
 using Platform;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -28,6 +29,8 @@ namespace Common.GameRoot
         
         private int loadIngNum;
         private int loadIngNumMax; //总加载步数
+        
+        private OpenNamePageUi openNamePageUi;
 
         private CancellationTokenSource _cancellationToken;
         private void Awake()
@@ -43,6 +46,8 @@ namespace Common.GameRoot
             loadFrameAni = GetComponent<Animator>();
             progressSlider = transform.Find("ProgressBG/ProgressSlider").GetComponent<Image>();
             // progressSlider.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 0);
+            openNamePageUi = transform.Find("PageName").GetComponent<OpenNamePageUi>();
+            openNamePageUi.Initial();
             progressSlider.fillAmount = 0;
         }
 
@@ -173,6 +178,11 @@ namespace Common.GameRoot
                 loadIngNum++;
                 currProgressTmp = loadIngNum / (float) loadIngNumMax;
             }
+        }
+        
+        public void ShowCreateNameUI()
+        {
+            openNamePageUi.gameObject.SetActive(true);
         }
     }
 }

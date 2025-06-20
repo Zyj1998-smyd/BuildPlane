@@ -121,7 +121,7 @@ namespace GamePlay.Battle.Guide
             guiAni.gameObject.SetActive(true);
             guiAni.Play("GuideBattle1Hand2");
             
-            await UniTask.Delay(3000, true,cancellationToken: _cancellationToken.Token);
+            await UniTask.Delay(1500, true,cancellationToken: _cancellationToken.Token);
             touchObj.SetActive(true);
         }
         async UniTask GuiStep3()
@@ -134,7 +134,7 @@ namespace GamePlay.Battle.Guide
             
             guiAni.Play("GuideBattle1Hand3");
             
-            await UniTask.Delay(3000, true,cancellationToken: _cancellationToken.Token);
+            await UniTask.Delay(1500, true,cancellationToken: _cancellationToken.Token);
             touchObj.SetActive(true);
         }
 

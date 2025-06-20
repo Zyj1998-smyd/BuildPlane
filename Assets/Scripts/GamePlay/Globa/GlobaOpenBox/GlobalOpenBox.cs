@@ -88,7 +88,7 @@ namespace GamePlay.Globa.GlobaOpenBox
 
             _frameAnimation = canvasMe.transform.Find("Frame").GetComponent<Animator>();
             
-            _btnSkip = canvasMe.transform.Find("Frame/FrameT/BtnSkip").gameObject;
+            _btnSkip = canvasMe.transform.Find("Frame/BtnSkip").gameObject;
             _btnSkip.GetComponent<Button>().onClick.AddListener(OnBtnSkip);
             
             _btnOpen = canvasMe.transform.Find("Frame/BtnOpen").gameObject;
@@ -230,6 +230,7 @@ namespace GamePlay.Globa.GlobaOpenBox
         private void OnBtnOpen()
         {
             _btnOpen.SetActive(false);
+            _btnSkip.SetActive(true);
             _ = OpenFrist();
         }
 

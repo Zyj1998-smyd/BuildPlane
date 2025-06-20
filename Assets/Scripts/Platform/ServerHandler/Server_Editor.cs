@@ -442,7 +442,15 @@ namespace Platform.ServerHandler
                 DataHelper.InitGameData();
 
                 DataHelper.nextSceneName = DataHelper.CurUserInfoData.isNewUser == 0 ? "BattleScene" : "MainScene";
-                GameRootLoad.Instance.StartLoad(DataHelper.nextSceneName);
+                if (DataHelper.CurUserInfoData.isNewUser==0 && string.IsNullOrEmpty(DataHelper.CurUserInfoData.userName))
+                {
+                    GameRootLoad.Instance.ShowCreateNameUI();
+                }
+                else
+                {
+                    GameRootLoad.Instance.StartLoad(DataHelper.nextSceneName);
+                }
+        
             });
         }
 
