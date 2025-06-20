@@ -1,209 +1,209 @@
 [
   {
-    "ID": 200,
-    "Type": 1,
-    "Name": "钻石",
+    "ID": "200",
+    "Type": "1",
+    "Name": "Diamonds",
     "Num": "2,150",
-    "BuyType": 0,
+    "BuyType": "0",
     "BuyNum": "1",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 100,
-    "Type": 1,
-    "Name": "金币",
+    "ID": "100",
+    "Type": "1",
+    "Name": "Coins",
     "Num": "1,7500",
-    "BuyType": 0,
+    "BuyType": "0",
     "BuyNum": "1",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 101,
-    "Type": 1,
-    "Name": "金币",
+    "ID": "101",
+    "Type": "1",
+    "Name": "Coins",
     "Num": "1,5000",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "100",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 102,
-    "Type": 1,
-    "Name": "金币",
+    "ID": "102",
+    "Type": "1",
+    "Name": "Coins",
     "Num": "1,10000",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "190",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 103,
-    "Type": 1,
-    "Name": "金币",
+    "ID": "103",
+    "Type": "1",
+    "Name": "Coins",
     "Num": "1,20000",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "360",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 300,
-    "Type": 2,
-    "Name": "基础部件宝箱",
+    "ID": "300",
+    "Type": "2",
+    "Name": "Basic Parts Crate",
     "Num": "300,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "150,150,200,250,300",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 301,
-    "Type": 2,
-    "Name": "精品部件宝箱",
+    "ID": "301",
+    "Type": "2",
+    "Name": "Premium Parts Crate",
     "Num": "301,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "600,650,700,750,800",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 302,
-    "Type": 2,
-    "Name": "豪华部件宝箱",
+    "ID": "302",
+    "Type": "2",
+    "Name": "Deluxe Parts Crate",
     "Num": "302,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "2000,2050,2100,2200,2300",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 4111,
-    "Type": 4,
-    "Name": "底漆颜色11",
+    "ID": "4111",
+    "Type": "4",
+    "Name": "Base Color 11",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4112,
-    "Type": 4,
-    "Name": "底漆颜色12",
+    "ID": "4112",
+    "Type": "4",
+    "Name": "Base Color 12",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4113,
-    "Type": 4,
-    "Name": "底漆颜色13",
+    "ID": "4113",
+    "Type": "4",
+    "Name": "Base Color 13",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "300",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4211,
-    "Type": 4,
-    "Name": "装饰颜色11",
+    "ID": "4211",
+    "Type": "4",
+    "Name": "Accent Color 11",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4212,
-    "Type": 4,
-    "Name": "装饰颜色12",
+    "ID": "4212",
+    "Type": "4",
+    "Name": "Accent Color 12",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4213,
-    "Type": 4,
-    "Name": "装饰颜色13",
+    "ID": "4213",
+    "Type": "4",
+    "Name": "Accent Color 13",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "300",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4304,
-    "Type": 4,
-    "Name": "LED灯组4",
+    "ID": "4304",
+    "Type": "4",
+    "Name": "LED Set 4",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4305,
-    "Type": 4,
-    "Name": "LED灯组5",
+    "ID": "4305",
+    "Type": "4",
+    "Name": "LED Set 5",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4306,
-    "Type": 4,
-    "Name": "LED灯组6",
+    "ID": "4306",
+    "Type": "4",
+    "Name": "LED Set 6",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "300",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4404,
-    "Type": 4,
-    "Name": "底漆贴纸4",
+    "ID": "4404",
+    "Type": "4",
+    "Name": "Base Decal 4",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4405,
-    "Type": 4,
-    "Name": "底漆贴纸5",
+    "ID": "4405",
+    "Type": "4",
+    "Name": "Base Decal 5",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "200",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 4406,
-    "Type": 4,
-    "Name": "底漆贴纸6",
+    "ID": "4406",
+    "Type": "4",
+    "Name": "Base Decal 6",
     "Num": "1,1",
-    "BuyType": 2,
+    "BuyType": "2",
     "BuyNum": "300",
-    "Limit": 1
+    "Limit": "1"
   },
   {
-    "ID": 500,
-    "Type": 5,
-    "Name": "钻石不足",
+    "ID": "500",
+    "Type": "5",
+    "Name": "Not Enough Diamonds",
     "Num": "2,100",
-    "BuyType": 0,
+    "BuyType": "0",
     "BuyNum": "1",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 501,
-    "Type": 5,
-    "Name": "金币不足",
+    "ID": "501",
+    "Type": "5",
+    "Name": "Not Enough Diamonds",
     "Num": "1,5000",
-    "BuyType": 0,
+    "BuyType": "0",
     "BuyNum": "1",
-    "Limit": 0
+    "Limit": "0"
   },
   {
-    "ID": 9999,
-    "Type": 0,
-    "Name": "局内宝箱获取距离",
+    "ID": "9999",
+    "Type": "0",
+    "Name": "In-Game Crate Collection Distance",
     "Num": "0,0",
-    "BuyType": 999,
+    "BuyType": "999",
     "BuyNum": "0",
-    "Limit": 2000
+    "Limit": "2000"
   }
 ]

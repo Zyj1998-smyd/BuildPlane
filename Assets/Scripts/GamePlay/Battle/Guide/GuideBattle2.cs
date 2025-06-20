@@ -83,9 +83,9 @@ namespace GamePlay.Battle.Guide
 
             Time.timeScale = 0;
 
-            _talkText.text = "长按推进按钮，可以进行推进。";
-            _audio.clip = audioGuideStep[0];
-            _audio.Play();
+            _talkText.text = "Long press—Press and hold the propel button to propel.";
+            // _audio.clip = audioGuideStep[0];
+            // _audio.Play();
 
             touchMaskObj.SetActive(true);
             spurtObj.SetActive(true);
@@ -111,14 +111,14 @@ namespace GamePlay.Battle.Guide
             touchObj.SetActive(false);
             spurtObj.SetActive(true);
             
-            _talkText.text = "要注意，能量耗尽，就无法推进了哦。";
-            _audio.clip = audioGuideStep[1];
-            _audio.Play();
+            _talkText.text = "Please note that if the energy is exhausted, you will not be able to propel.";
+            // _audio.clip = audioGuideStep[1];
+            // _audio.Play();
             await UniTask.Delay(2500, true, cancellationToken: _cancellationToken.Token);
             
-            _talkText.text = "想要更强的推进力，需要装备更好的推进器。";
-            _audio.clip = audioGuideStep[2];
-            _audio.Play();
+            _talkText.text = "If you want stronger propulsion, you need to equip better thrusters.";
+            // _audio.clip = audioGuideStep[2];
+            // _audio.Play();
             await UniTask.Delay(3000, true, cancellationToken: _cancellationToken.Token);
             
             talkAni.Play("GuideBattleTalkEnd");

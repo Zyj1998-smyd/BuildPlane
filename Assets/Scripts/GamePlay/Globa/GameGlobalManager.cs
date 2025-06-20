@@ -58,6 +58,8 @@ namespace GamePlay.Globa
         
         public void SetCanvasUiMain(Camera cameraTmp = null)
         {
+            if (_globaCanvas== null) return;
+            if (!_globaCanvas.canvasMe) return;
             if (_globaCanvas.canvasMe.worldCamera) return;
             if (!cameraTmp)
                 _globaCanvas.canvasMe.worldCamera = GameObject.Find("/CamUi2D").GetComponent<Camera>();
@@ -132,11 +134,22 @@ namespace GamePlay.Globa
 
         public void SetCanvasUiMainOpenBox(Camera cameraTmp = null)
         {
+            Debug.Log(1);
+            
+            if(_globalOpenBox==null)return;
+            if(_globalOpenBox.canvasMe==null)return;
             if (_globalOpenBox.canvasMe.worldCamera) return;
             if (!cameraTmp)
+            {
+                Debug.Log(2);
                 _globalOpenBox.canvasMe.worldCamera = GameObject.Find("/CamUi2D").GetComponent<Camera>();
+            }
             else
+            {
+                Debug.Log(3);
                 _globalOpenBox.canvasMe.worldCamera = cameraTmp;
+            }
+           
         }
 
         public void OpenBox(int boxId)

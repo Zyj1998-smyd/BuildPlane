@@ -231,8 +231,8 @@ namespace GamePlay.Main.Guide
         private void PlayAudio(int index)
         {
             _audio.Stop();
-            _audio.clip = audioGuideStep[index];
-            _audio.Play();
+            // _audio.clip = audioGuideStep[index];
+            // _audio.Play();
         }
 
         /// <summary>
@@ -274,7 +274,7 @@ namespace GamePlay.Main.Guide
             pos.y = -330;
             _guideTalkFrame.anchoredPosition = pos;
             PlayAudio(0);
-            _talkText.text = "第一次的飞行似乎不是很远,不过没关系；";
+            _talkText.text = "The first flight doesn't seem to be very far, but that's okay;";
             _nextTip.SetActive(true);
             _btnMask.interactable = true;
             _guideStep = 1;
@@ -292,7 +292,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(1);
-            _talkText.text = "让我们来获取一些新的飞机部件。";
+            _talkText.text = "Let's get some new aircraft parts.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             SetHandPoint(_btnBoxTouch, _handTouchRect.rect.height / 2);
@@ -311,7 +311,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(2);
-            _talkText.text = "超赞！似乎获得了一些不错的部件呢。\n让我们组装起来！";
+            _talkText.text = "Great! It seems that we got some good parts. Let's assemble them!";
             _nextTip.SetActive(true);
             _btnMask.interactable = true;
             _guideStep = 3;
@@ -329,7 +329,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(3);
-            _talkText.text = "对啦，如果获得重复的部件也没关系，\n会自动转化为部件升级碎片。";
+            _talkText.text = "Yes, it doesn't matter if you get duplicate parts, they will automatically be converted into part upgrade fragments.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             SetHandPoint(_btnMenuBuild);
@@ -354,7 +354,7 @@ namespace GamePlay.Main.Guide
             await UniTask.Delay(500, cancellationToken: _cancellationToken.Token);
 
             PlayAudio(4);
-            _talkText.text = "首先来确定机身部件。";
+            _talkText.text = "First, determine the fuselage parts.";
             _nextTip.SetActive(true);
             _btnMask.interactable = true;
             _guideStep = 5;
@@ -372,7 +372,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(5);
-            _talkText.text = "选择新获得的机身。";
+            _talkText.text = "Select the newly obtained fuselage.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform itemTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/ListFrame/List/Viewport/Content/ItemBuildList1/Point_2").transform;
@@ -393,7 +393,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(6);
-            _talkText.text = "接着选择左机翼。";
+            _talkText.text = "Next, select the left wing.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform tittleTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/Label/LabelA/Label3").transform;
@@ -415,7 +415,7 @@ namespace GamePlay.Main.Guide
             await UniTask.Delay(100, cancellationToken: _cancellationToken.Token);
             
             PlayAudio(7);
-            _talkText.text = "选择新获得的左机翼。";
+            _talkText.text = "Select the newly obtained left wing.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform itemTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/ListFrame/List/Viewport/Content/ItemBuildList1/Point_2").transform;
@@ -436,7 +436,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(8);
-            _talkText.text = "再来选择右机翼。";
+            _talkText.text = "Next, select the right wing.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform tittleTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/Label/LabelA/Label4").transform;
@@ -458,7 +458,7 @@ namespace GamePlay.Main.Guide
             await UniTask.Delay(100, cancellationToken: _cancellationToken.Token);
             
             PlayAudio(9);
-            _talkText.text = "选择新获得的右机翼。\n左右机翼保持一致，才能飞的更平稳哦！";
+            _talkText.text = "Select the newly obtained right wing. Keep the left and right wings consistent so that you ";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform itemTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/ListFrame/List/Viewport/Content/ItemBuildList1/Point_2").transform;
@@ -479,7 +479,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(10);
-            _talkText.text = "接下来选择机头部件。";
+            _talkText.text = "Next, select the nose part.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform tittleTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/Label/LabelB/Label2").transform;
@@ -501,7 +501,7 @@ namespace GamePlay.Main.Guide
             await UniTask.Delay(100, cancellationToken: _cancellationToken.Token);
             
             PlayAudio(11);
-            _talkText.text = "选择新获得的机头。";
+            _talkText.text = "Select the newly obtained nose.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform itemTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/ListFrame/List/Viewport/Content/ItemBuildList1/Point_2").transform;
@@ -522,7 +522,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(12);
-            _talkText.text = "还要选择一下机尾部件。";
+            _talkText.text = "Also select the tail part.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform tittleTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/Label/LabelB/Label5").transform;
@@ -544,7 +544,7 @@ namespace GamePlay.Main.Guide
             await UniTask.Delay(100, cancellationToken: _cancellationToken.Token);
             
             PlayAudio(13);
-            _talkText.text = "选择新获得的机尾。";
+            _talkText.text = "Select the newly obtained tail.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform itemTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/ListFrame/List/Viewport/Content/ItemBuildList1/Point_2").transform;
@@ -565,7 +565,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(14);
-            _talkText.text = "最后选择推进器部件。";
+            _talkText.text = "Finally, select the propeller part.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform tittleTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/Label/LabelB/Label6").transform;
@@ -587,7 +587,7 @@ namespace GamePlay.Main.Guide
             await UniTask.Delay(100, cancellationToken: _cancellationToken.Token);
             
             PlayAudio(15);
-            _talkText.text = "选择新获得的推进器。";
+            _talkText.text = "Select the newly obtained propeller.";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             Transform itemTran = GameObject.Find("/CanvasUi2D/Page/PageBuild(Clone)/BuildList/ListFrame/List/Viewport/Content/ItemBuildList1/Point_2").transform;
@@ -608,7 +608,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(16);
-            _talkText.text = "组装完成！看起来超棒！";
+            _talkText.text = "Assembly completed! Looks great!";
             _nextTip.SetActive(true);
             _btnMask.interactable = true;
             _guideStep = 17;
@@ -626,7 +626,7 @@ namespace GamePlay.Main.Guide
             _cancellationToken = new CancellationTokenSource();
             
             PlayAudio(17);
-            _talkText.text = "快，让我们再飞一次！";
+            _talkText.text = "Quick, let's fly again!";
             _nextTip.SetActive(false);
             _handTran.gameObject.SetActive(true);
             SetHandPoint(_btnMenuMain);

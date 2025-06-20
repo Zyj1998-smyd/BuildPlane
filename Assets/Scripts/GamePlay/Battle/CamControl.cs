@@ -39,6 +39,7 @@ namespace GamePlay.Battle
             while (moveTime < moveTimeMax)
             {
                 moveTime += Time.deltaTime;
+                
                 transform.position = Vector3.Lerp(Vector3.zero, targatTram.position, moveTime / moveTimeMax);
 
                 await UniTask.Yield(cancellationToken: _cancellationToken.Token);

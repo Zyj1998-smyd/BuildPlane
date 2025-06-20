@@ -100,15 +100,15 @@ MonoBehaviour:
   m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -503,8 +503,7 @@ MonoBehaviour:
   m_text: Day 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276516f0dfc1f41a8b23e761582827b8, type: 2}
-  m_sharedMaterial: {fileID: 2552381567528357835, guid: 276516f0dfc1f41a8b23e761582827b8,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: d46ddceccf400485abc5fa2525802662, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -944,8 +943,7 @@ MonoBehaviour:
   m_text: Day 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276516f0dfc1f41a8b23e761582827b8, type: 2}
-  m_sharedMaterial: {fileID: 2552381567528357835, guid: 276516f0dfc1f41a8b23e761582827b8,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: d46ddceccf400485abc5fa2525802662, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1309,8 +1307,7 @@ MonoBehaviour:
   m_text: Day 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276516f0dfc1f41a8b23e761582827b8, type: 2}
-  m_sharedMaterial: {fileID: 2552381567528357835, guid: 276516f0dfc1f41a8b23e761582827b8,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: d46ddceccf400485abc5fa2525802662, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1444,8 +1441,7 @@ MonoBehaviour:
   m_text: Day 7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276516f0dfc1f41a8b23e761582827b8, type: 2}
-  m_sharedMaterial: {fileID: 2552381567528357835, guid: 276516f0dfc1f41a8b23e761582827b8,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: d46ddceccf400485abc5fa2525802662, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1611,15 +1607,15 @@ MonoBehaviour:
   m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2196,20 +2192,20 @@ MonoBehaviour:
   m_fontSize: 50
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2760,8 +2756,7 @@ MonoBehaviour:
   m_text: Day 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276516f0dfc1f41a8b23e761582827b8, type: 2}
-  m_sharedMaterial: {fileID: 2552381567528357835, guid: 276516f0dfc1f41a8b23e761582827b8,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: d46ddceccf400485abc5fa2525802662, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2927,15 +2922,15 @@ MonoBehaviour:
   m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -3215,14 +3210,14 @@ RectTransform:
   m_GameObject: {fileID: 4002240692956064429}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.90909094, y: 0.90909094, z: 0.90909094}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 6087513467702930489}
+  m_Father: {fileID: 2783712788079456107}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -274, y: -407}
+  m_AnchoredPosition: {x: -34.54544, y: 95.45456}
   m_SizeDelta: {x: 590, y: 133}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4698989564372137877
@@ -4355,7 +4350,6 @@ RectTransform:
   m_Children:
   - {fileID: 4638788456930196037}
   - {fileID: 5210595239602378008}
-  - {fileID: 8359239759357821379}
   - {fileID: 2783712788079456107}
   - {fileID: 992652934216009836}
   - {fileID: 2380916725045894474}
@@ -4643,8 +4637,7 @@ MonoBehaviour:
   m_text: Day 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276516f0dfc1f41a8b23e761582827b8, type: 2}
-  m_sharedMaterial: {fileID: 2552381567528357835, guid: 276516f0dfc1f41a8b23e761582827b8,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: d46ddceccf400485abc5fa2525802662, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5044,7 +5037,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 8359239759357821379}
   m_Father: {fileID: 6087513467702930489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -5385,15 +5379,15 @@ MonoBehaviour:
   m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -5595,15 +5589,15 @@ MonoBehaviour:
   m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -6528,8 +6522,7 @@ MonoBehaviour:
   m_text: Day 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 276516f0dfc1f41a8b23e761582827b8, type: 2}
-  m_sharedMaterial: {fileID: 2552381567528357835, guid: 276516f0dfc1f41a8b23e761582827b8,
-    type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: d46ddceccf400485abc5fa2525802662, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6988,15 +6981,15 @@ MonoBehaviour:
   m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -7430,20 +7423,20 @@ MonoBehaviour:
   m_fontSize: 50
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 8192
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 5
+  m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}

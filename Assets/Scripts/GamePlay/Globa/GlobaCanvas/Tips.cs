@@ -11,9 +11,26 @@ namespace GamePlay.Globa.GlobaCanvas
         /** 提示字符串列表 */
         private readonly List<string> _tipStrList = new List<string>(18)
         {
-            "暂未开放", "金币不足", "钻石不足", "体力不足", "今日已签到，明天再来吧！", "抽奖正在进行中...", "能力未解锁", "挑战关卡未解锁",
-            "没有前置关卡", "请先完成当前关卡", "奖励已领取", "未达到领取条件", "签到时间未到！", "签到奖励已领取！", "超过当日购买限制", "科技碎片不足",
-            "请先完成前置关卡", "广告还未准备好！", "已装备触手", "未装备触手"
+            "Coming soon"
+            ,"Not enough coins" 
+            ,"Not enough gems" 
+            ,"Not enough energy" 
+            ,"Already checked in today. Come back tomorrow!"
+            ,"Spinning in progress..." 
+            ,"Not unlocked yet"
+            ,"Challenge level locked"
+            ,"No prerequisite level"
+            ,"Please complete the current level first"
+            ,"Reward already claimed"
+            ,"Conditions not met" 
+            ,"Check-in time not reached yet!"
+            ,"Daily login reward claimed!"
+            ,"Daily purchase limit exceeded"
+            ,"Not enough tech fragments"
+            ,"Please complete the prerequisite level first"
+            ,"Ads not ready yet!"
+            ,"Tentacle equipped"
+            ,"Tentacle not equipped"
         };
 
         /// <summary>

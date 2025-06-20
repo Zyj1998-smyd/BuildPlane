@@ -56,6 +56,7 @@ namespace GamePlay.Module.Round.Task
             
             StringBuilder desc = new StringBuilder(config.Doc);
             desc.Replace("X", config.Num.ToString());
+            desc.Replace("x", config.Num.ToString());
             _descText.text = desc.ToString();
 
             switch (taskData[2])

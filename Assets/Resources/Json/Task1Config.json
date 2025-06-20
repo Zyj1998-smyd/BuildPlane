@@ -1,92 +1,92 @@
 [
   {
-    "ID": 1,
-    "Doc": "完成X次飞行",
-    "Type": 0,
-    "Num": 15
+    "ID": "1",
+    "Doc": "Fly x times",
+    "Type": "0",
+    "Num": "15"
   },
   {
-    "ID": 2,
-    "Doc": "观看X次广告",
-    "Type": 0,
-    "Num": 5
+    "ID": "2",
+    "Doc": "Watch x ads",
+    "Type": "0",
+    "Num": "5"
   },
   {
-    "ID": 3,
-    "Doc": "升级X次部件",
-    "Type": 0,
-    "Num": 5
+    "ID": "3",
+    "Doc": "Upgrade x items",
+    "Type": "0",
+    "Num": "5"
   },
   {
-    "ID": 4,
-    "Doc": "打开X个部件宝箱",
-    "Type": 0,
-    "Num": 5
+    "ID": "4",
+    "Doc": "Open x boxes",
+    "Type": "0",
+    "Num": "5"
   },
   {
-    "ID": 5,
-    "Doc": "商店购买X次部件",
-    "Type": 0,
-    "Num": 5
+    "ID": "5",
+    "Doc": "Buy x items",
+    "Type": "0",
+    "Num": "5"
   },
   {
-    "ID": 6,
-    "Doc": "领取X次在线奖励",
-    "Type": 0,
-    "Num": 5
+    "ID": "6",
+    "Doc": "Collect x rewards",
+    "Type": "0",
+    "Num": "5"
   },
   {
-    "ID": 7,
-    "Doc": "完成X次涂装更换",
-    "Type": 0,
-    "Num": 1
+    "ID": "7",
+    "Doc": "Complete X paint changes",
+    "Type": "0",
+    "Num": "1"
   },
   {
-    "ID": 8,
-    "Doc": "查看X次排行榜",
-    "Type": 0,
-    "Num": 1
+    "ID": "8",
+    "Doc": "Check the leaderboard X times",
+    "Type": "0",
+    "Num": "1"
   },
   {
-    "ID": 9,
-    "Doc": "升级任意一项强化X次",
-    "Type": 0,
-    "Num": 30
+    "ID": "9",
+    "Doc": "Upgrade any enhancement X times",
+    "Type": "0",
+    "Num": "30"
   },
   {
-    "ID": 10,
-    "Doc": "飞行中捡取X枚金币",
-    "Type": 0,
-    "Num": 30
+    "ID": "10",
+    "Doc": "Collect X coins during flight",
+    "Type": "0",
+    "Num": "30"
   },
   {
-    "ID": 101,
-    "Doc": "活跃奖励金币",
-    "Type": 102,
-    "Num": 2000
+    "ID": "101",
+    "Doc": "Active Reward: Coins",
+    "Type": "102",
+    "Num": "2000"
   },
   {
-    "ID": 102,
-    "Doc": "活跃奖励钻石",
-    "Type": 200,
-    "Num": 50
+    "ID": "102",
+    "Doc": "Active Reward: Gems",
+    "Type": "200",
+    "Num": "50"
   },
   {
-    "ID": 103,
-    "Doc": "活跃奖励基础宝箱",
-    "Type": 300,
-    "Num": 1
+    "ID": "103",
+    "Doc": "Active Reward: Basic Chest",
+    "Type": "300",
+    "Num": "1"
   },
   {
-    "ID": 104,
-    "Doc": "活跃奖励精品宝箱",
-    "Type": 301,
-    "Num": 1
+    "ID": "104",
+    "Doc": "Active Reward: Premium Chest",
+    "Type": "301",
+    "Num": "1"
   },
   {
-    "ID": 105,
-    "Doc": "活跃奖励豪华宝箱",
-    "Type": 302,
-    "Num": 1
+    "ID": "105",
+    "Doc": "Active Reward: Luxury Chest",
+    "Type": "302",
+    "Num": "1"
   }
 ]

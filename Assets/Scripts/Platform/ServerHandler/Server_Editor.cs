@@ -727,7 +727,7 @@ namespace Platform.ServerHandler
                             nickName = GlobalValueManager.NickNames[index],
                             userAvatar = new StringBuilder(GlobalValueManager.HeadImageUrl + "Image" + (index + 1) + ".png").ToString(),
                             distance = Random.Range(100, 500),
-                            userProvince = "江苏",
+                            userProvince = "USA",
                             planeEquipments = new List<int>(6) { 1000, 2000, 3000, 4000, 5000, 6000 },
                             planeEquipmentColor = colorList,
                             planeEquipmentLvs = new List<int>(6) { 1, 1, 1, 1, 1, 1 }

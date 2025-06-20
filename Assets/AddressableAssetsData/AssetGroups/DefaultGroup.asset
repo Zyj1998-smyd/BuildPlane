@@ -16,7 +16,22 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: c8ffd76b894319341913d1f3d5abb602
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 1583c3670b67f5944aaf11c7a71cde09
+    m_Address: Assets/Arts/2D/Icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e97778dbe3f2f4525bae7c535be58537
+    m_Address: Font_Common
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc05a317313da5c45b73250a6ec9a268
+    m_Address: PopWelcome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 9c43100cc61e80a4593e890db03b13aa, type: 2}
   m_SchemaSet:

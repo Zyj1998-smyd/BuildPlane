@@ -42,7 +42,7 @@ namespace GamePlay.Module.Call
 
             GameSdkManager._instance._sdkScript.ShareControl(() =>
             {
-                ConfigManager.Instance.ConsoleLog(0, "分享成功");
+                ConfigManager.Instance.ConsoleLog(0, "Share Completely");
                 DataHelper.CurUserInfoData.callRewardGet = 1;
                 DataHelper.ModifyLocalData(new List<string>(1) { "callRewardGet" }, () =>
                 {

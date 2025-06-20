@@ -138,7 +138,7 @@ namespace GamePlay.Globa.GlobaOpenBox
         private void OnBtnGetAdditional()
         {
             DataHelper.CurReportDf_adScene = "GetBoxExtra";
-            GameSdkManager._instance._sdkScript.VideoControl("开宝箱获得额外部件", () =>
+            GameSdkManager._instance._sdkScript.VideoControl("OpenBoxGetExtraPart", () =>
             {
                 _additionalObj.SetActive(false);
                 _rewardItemObj.SetActive(false);

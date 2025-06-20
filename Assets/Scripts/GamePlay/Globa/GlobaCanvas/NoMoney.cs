@@ -137,7 +137,7 @@ namespace GamePlay.Globa.GlobaCanvas
         {
             AudioHandler._instance.PlayAudio(GameGlobalManager._instance.audioBtnClick);
             DataHelper.CurReportDf_adScene = "GetFreeMoney";
-            GameSdkManager._instance._sdkScript.VideoControl("获得免费货币", GetCallBack, () => { });
+            GameSdkManager._instance._sdkScript.VideoControl("Get Free Coin", GetCallBack, () => { });
         }
     }
 }

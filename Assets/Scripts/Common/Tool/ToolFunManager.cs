@@ -46,26 +46,26 @@ namespace Common.Tool
         public static string GetText(float num, bool isDis)
         {
             StringBuilder numString = new StringBuilder();
-            if (num >= 100000000)
+            if (num >= 1000000000)
             {
                 // 大于一亿
-                float numTmp = num / 100000000f;
+                float numTmp = num / 1000000000f;
                 numString.Append(numTmp.ToString("F2").TrimEnd('0').TrimEnd('.'));
-                numString.Append(isDis ? "亿" : "Y");
+                numString.Append("B");
             }
-            else if (num >= 10000)
+            else if (num >= 1000000)
             {
                 // 大于一万
-                float numTmp = num / 10000f;
+                float numTmp = num / 1000000f;
                 numString.Append(numTmp.ToString("F2").TrimEnd('0').TrimEnd('.'));
-                numString.Append(isDis ? "万" : "W");
+                numString.Append("M");
             }
             else if (num >= 1000)
             {
                 // 大于一千
                 float numTmp = num / 1000f;
                 numString.Append(numTmp.ToString("F2").TrimEnd('0').TrimEnd('.'));
-                numString.Append(isDis ? "千" : "K");
+                numString.Append("K");
             }
             else
             {

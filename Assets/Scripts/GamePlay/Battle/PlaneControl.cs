@@ -194,7 +194,7 @@ namespace GamePlay.Battle
 
             if (thrusterSpurtTimeNow <= 0)
             {
-                GameGlobalManager._instance.ShowTips("能量不足");
+                GameGlobalManager._instance.ShowTips("Lack of energy");
                 return;
             }
 
@@ -226,7 +226,7 @@ namespace GamePlay.Battle
                 thrusterSpurtTimeNow -= 0.02f;
                 if (thrusterSpurtTimeNow <= 0)
                 {
-                    GameGlobalManager._instance.ShowTips("能量耗尽");
+                    GameGlobalManager._instance.ShowTips("Running out of energy");
 
                     _ = ThrusterSpurtCancel();
                 }

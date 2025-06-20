@@ -72,7 +72,7 @@ namespace GamePlay.Battle.Ui
             distanceNumText = infoObj.Find("Distance").GetComponent<TextMeshProUGUI>();
             distanceNumText.text =
                 new StringBuilder(ToolFunManager.GetText(
-                        BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + "米")
+                        BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + "M")
                     .ToString();
 
             disNewRecord = infoObj.Find("Distance/NewRecord").gameObject;
@@ -84,7 +84,7 @@ namespace GamePlay.Battle.Ui
             speedNumText.text = "0M/H";
 
             heightNumText = infoObj.Find("Height/Num").GetComponent<TextMeshProUGUI>();
-            heightNumText.text = "0米";
+            heightNumText.text = "0M";
 
             goldAni = infoObj.Find("Gold").GetComponent<Animation>();
             goldNumText = infoObj.Find("Gold/Num").GetComponent<TextMeshProUGUI>();
@@ -122,7 +122,7 @@ namespace GamePlay.Battle.Ui
         {
             distanceNumText.text =
                 new StringBuilder(ToolFunManager.GetText(
-                        Mathf.FloorToInt(BattleManager._instance.scoreDistance) + BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + "米")
+                        Mathf.FloorToInt(BattleManager._instance.scoreDistance) + BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + "M")
                     .ToString();
             infoOrderValue.fillAmount = BattleManager._instance.scoreDistance / BattleManager._instance.endDis;
 
@@ -147,7 +147,7 @@ namespace GamePlay.Battle.Ui
         
         internal void RefreshHeight()
         {
-            heightNumText.text = new StringBuilder(BattleManager._instance.nowHeight + "米").ToString();
+            heightNumText.text = new StringBuilder(BattleManager._instance.nowHeight + "M").ToString();
         }
 
         internal void RefreshSpurt(int spurtIngState, float Ratio)

@@ -306,7 +306,7 @@ namespace GamePlay.Module.Round.Task
             int hour = (int)(subTime / 60 / 60);
             int minute = (int)(subTime / 60 % 60);
             int second = (int)(subTime % 60);
-            _refreshTimeText.text = new StringBuilder($"{hour:D2}:{minute:D2}:{second:D2}" + " 后刷新任务").ToString();
+            _refreshTimeText.text = new StringBuilder($"After" + "{hour:D2}:{minute:D2}:{second:D2}" + "Refresh Task").ToString();
             
             _timeNum = (int)subTime;
             _ = RefreshTime();
@@ -325,14 +325,16 @@ namespace GamePlay.Module.Round.Task
                 int hour = _timeNum / 60 / 60;
                 int minute = _timeNum / 60 % 60;
                 int second = _timeNum % 60;
-                _refreshTimeText.text = new StringBuilder($"{hour:D2}:{minute:D2}:{second:D2}" + " 后刷新任务").ToString();
+                _refreshTimeText.text = new StringBuilder($"After {hour:D2}:{minute:D2}:{second:D2}" + " Refresh Tasks").ToString();
                 _timeNum -= 1;
                 
                 await UniTask.Delay(1000, true, cancellationToken: _cancellationToken.Token);
             }
             
             _timeNum = 0;
-            _refreshTimeText.text = "00:00:00 后刷新任务";
+            
+            
+            _refreshTimeText.text = "After 00:00:00 Refresh Tasks";
         }
 
         // ----------------------------------------------- 按钮 -----------------------------------------------

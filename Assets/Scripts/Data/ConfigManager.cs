@@ -125,21 +125,24 @@ namespace Data
                 LoadLocalConfig(0, "ComponentConfig", () => { LoadConfig_Shop(cb); });
                 return;
             }
+            
+            LoadLocalConfig(0, "ComponentConfig", () => { LoadConfig_Shop(cb); });
 
-            StartCoroutine(ServerGetData.LoadRemoteConfig("ComponentConfig", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(0, "ComponentConfig", () => { LoadConfig_Shop(cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(0, text);
-                    LoadConfig_Shop(cb);
-                }
-            }));
+
+            // StartCoroutine(ServerGetData.LoadRemoteConfig("ComponentConfig", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(0, "ComponentConfig", () => { LoadConfig_Shop(cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(0, text);
+            //         LoadConfig_Shop(cb);
+            //     }
+            // }));
         }
 
         /// <summary>
@@ -153,21 +156,23 @@ namespace Data
                 LoadLocalConfig(1, "ShopConfig", () => { LoadConfig_RewardBox(cb); });
                 return;
             }
+            LoadLocalConfig(1, "ShopConfig", () => { LoadConfig_RewardBox(cb); });
 
-            StartCoroutine(ServerGetData.LoadRemoteConfig("ShopConfig", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(1, "ShopConfig", () => { LoadConfig_RewardBox(cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(1, text);
-                    LoadConfig_RewardBox(cb);
-                }
-            }));
+
+            // StartCoroutine(ServerGetData.LoadRemoteConfig("ShopConfig", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(1, "ShopConfig", () => { LoadConfig_RewardBox(cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(1, text);
+            //         LoadConfig_RewardBox(cb);
+            //     }
+            // }));
         }
 
         /// <summary>
@@ -181,21 +186,23 @@ namespace Data
                 LoadLocalConfig(3, "RewardBox", () => { LoadConfig_Gm(cb); });
                 return;
             }
+            LoadLocalConfig(3, "RewardBox", () => { LoadConfig_Gm(cb); });
 
-            StartCoroutine(ServerGetData.LoadRemoteConfig("RewardBox", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(3, "RewardBox", () => { LoadConfig_Gm(cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(3, text);
-                    LoadConfig_Gm(cb);
-                }
-            }));
+            //
+            // StartCoroutine(ServerGetData.LoadRemoteConfig("RewardBox", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(3, "RewardBox", () => { LoadConfig_Gm(cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(3, text);
+            //         LoadConfig_Gm(cb);
+            //     }
+            // }));
         }
 
         /// <summary>
@@ -209,21 +216,24 @@ namespace Data
                 LoadLocalConfig(2, "GmConfig", () => { LoadConfig_Sign(cb); });
                 return;
             }
+            
+            LoadLocalConfig(2, "GmConfig", () => { LoadConfig_Sign(cb); });
 
-            StartCoroutine(ServerGetData.LoadRemoteConfigPublic("GmConfig", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(2, "GmConfig", () => { LoadConfig_Sign(cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(2, text);
-                    LoadConfig_Sign(cb);
-                }
-            }));
+
+            // StartCoroutine(ServerGetData.LoadRemoteConfigPublic("GmConfig", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(2, "GmConfig", () => { LoadConfig_Sign(cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(2, text);
+            //         LoadConfig_Sign(cb);
+            //     }
+            // }));
         }
 
         /// <summary>
@@ -237,21 +247,24 @@ namespace Data
                 LoadLocalConfig(4, "SignConfig", () => { LoadConfig_Task_1(cb); });
                 return;
             }
+            
+            LoadLocalConfig(4, "SignConfig", () => { LoadConfig_Task_1(cb); });
 
-            StartCoroutine(ServerGetData.LoadRemoteConfig("SignConfig", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(4, "SignConfig", () => { LoadConfig_Task_1(cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(4, text);
-                    LoadConfig_Task_1(cb);
-                }
-            }));
+
+            // StartCoroutine(ServerGetData.LoadRemoteConfig("SignConfig", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(4, "SignConfig", () => { LoadConfig_Task_1(cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(4, text);
+            //         LoadConfig_Task_1(cb);
+            //     }
+            // }));
         }
 
         private void LoadConfig_Task_1(Action cb)
@@ -261,21 +274,24 @@ namespace Data
                 LoadLocalConfig(5, "Task1Config", () => { LoadConfig_Task_2(cb); });
                 return;
             }
+            
+            LoadLocalConfig(5, "Task1Config", () => { LoadConfig_Task_2(cb); });
 
-            StartCoroutine(ServerGetData.LoadRemoteConfig("Task1Config", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(5, "Task1Config", () => { LoadConfig_Task_2(cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(5, text);
-                    LoadConfig_Task_2(cb);
-                }
-            }));
+
+            // StartCoroutine(ServerGetData.LoadRemoteConfig("Task1Config", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(5, "Task1Config", () => { LoadConfig_Task_2(cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(5, text);
+            //         LoadConfig_Task_2(cb);
+            //     }
+            // }));
         }
 
         private void LoadConfig_Task_2(Action cb)
@@ -286,20 +302,22 @@ namespace Data
                 return;
             }
 
-            StartCoroutine(ServerGetData.LoadRemoteConfig("Task2Config", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(6, "Task2Config", () => { LoadConfig_ShopItems(cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(6, text);
-                    LoadConfig_ShopItems(cb);
-                }
-            }));
+            LoadLocalConfig(6, "Task2Config", () => { LoadConfig_ShopItems(cb); });
+
+            // StartCoroutine(ServerGetData.LoadRemoteConfig("Task2Config", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(6, "Task2Config", () => { LoadConfig_ShopItems(cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(6, text);
+            //         LoadConfig_ShopItems(cb);
+            //     }
+            // }));
         }
 
         private void LoadConfig_ShopItems(Action cb)
@@ -310,20 +328,22 @@ namespace Data
                 return;
             }
 
-            StartCoroutine(ServerGetData.LoadRemoteConfig("ShopItem", text =>
-            {
-                if (text == null)
-                {
-                    // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
-                    LoadLocalConfig(7, "ShopItem", () => { LoadLocalConfig(8, "ProvinceConfigList", cb); });
-                }
-                else
-                {
-                    // 读取远程配置成功 继续读取下一配置
-                    JsonConfigToDict(7, text);
-                    LoadLocalConfig(8, "ProvinceConfigList", cb);
-                }
-            }));
+            LoadLocalConfig(7, "ShopItem", () => { LoadLocalConfig(8, "ProvinceConfigList", cb); });
+
+            // StartCoroutine(ServerGetData.LoadRemoteConfig("ShopItem", text =>
+            // {
+            //     if (text == null)
+            //     {
+            //         // 读取远程配置失败 读取本地配置保底容错 继续读取下一配置
+            //         LoadLocalConfig(7, "ShopItem", () => { LoadLocalConfig(8, "ProvinceConfigList", cb); });
+            //     }
+            //     else
+            //     {
+            //         // 读取远程配置成功 继续读取下一配置
+            //         JsonConfigToDict(7, text);
+            //         LoadLocalConfig(8, "ProvinceConfigList", cb);
+            //     }
+            // }));
         }
 
         /// <summary>
