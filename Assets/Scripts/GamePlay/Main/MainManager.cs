@@ -221,8 +221,8 @@ namespace GamePlay.Main
                 _redPoints[i] = redPoint;
             }
             
-             Lock = uiCanvasRect.Find("Menu/Label5Off/Lock").transform;
-            Lock.gameObject.SetActive(true);
+            Lock = uiCanvasRect.Find("Menu/Label5Off/Lock").transform;
+            Lock.gameObject.SetActive(DataHelper.CurLevelNum<=1);
 
             _pageTran = uiCanvasRect.Find("Page");
             _popTran = uiCanvasRect.Find("Pop");
@@ -234,32 +234,43 @@ namespace GamePlay.Main
             _internalPageUis[2] = mainPageUi;
         }
 
+        public void StartNewUserGuide()
+        {
+            // 需要执行新手引导 弹窗不可能被打开 无需加载弹窗
+            // 新手引导预先给一个宝箱 宝箱打开时间设置为当前时间 + 宝箱打开持续时间 + 额外一分钟
+            long boxTime = ToolFunManager.GetCurrTime() - ConfigManager.Instance.RewardBoxConfigDict[100].OpenTime * 60 - 60;
+            List<string> modifyKeys = new List<string>();
+            DataHelper.CurUserInfoData.boxList[0] = new[] { "100", boxTime.ToString() };
+            modifyKeys.Add("boxsList");
+            DataHelper.CurUserInfoData.equipEquipments = new List<int>(GlobalValueManager.InitEquipments);
+            modifyKeys.Add("equipEquipments");
+            DataHelper.CurUserInfoData.equipments = new Dictionary<int, int>();
+            for (int i = 0; i < GlobalValueManager.InitEquipments.Count; i++)
+            {
+                DataHelper.CurUserInfoData.equipments.Add(GlobalValueManager.InitEquipments[i], 1);
+            }
+            modifyKeys.Add("equipments");
+            DataHelper.ModifyLocalData(modifyKeys, () => { });
+            // 加载新手引导
+            LoadGuideMain_1();
+        }
+        
         private void Start()
         {
             LoadPage(_internalPageNames[3], 3, () => { }); // 加载组装页面
             LoadPage(_internalPageNames[4], 4, () => { });  // 加载排行页面
             LoadPage(_internalPageNames[1], 1, () => { });  // 加载商店页面
             LoadPage(_internalPageNames[0], 0, () => { }); // 加载升级页面
+            // LoadPage(_internalPageNames[5], 0, () => { }); // 加载升级页面
 
             if (DataHelper.CurUserInfoData.isNewUser == 0)
             {
-                // 需要执行新手引导 弹窗不可能被打开 无需加载弹窗
-                // 新手引导预先给一个宝箱 宝箱打开时间设置为当前时间 + 宝箱打开持续时间 + 额外一分钟
-                long boxTime = ToolFunManager.GetCurrTime() - ConfigManager.Instance.RewardBoxConfigDict[100].OpenTime * 60 - 60;
-                List<string> modifyKeys = new List<string>();
-                DataHelper.CurUserInfoData.boxList[0] = new[] { "100", boxTime.ToString() };
-                modifyKeys.Add("boxsList");
-                DataHelper.CurUserInfoData.equipEquipments = new List<int>(GlobalValueManager.InitEquipments);
-                modifyKeys.Add("equipEquipments");
-                DataHelper.CurUserInfoData.equipments = new Dictionary<int, int>();
-                for (int i = 0; i < GlobalValueManager.InitEquipments.Count; i++)
+                LoadResources.XXResourcesLoad("PageName", handleTmp =>
                 {
-                    DataHelper.CurUserInfoData.equipments.Add(GlobalValueManager.InitEquipments[i], 1);
-                }
-                modifyKeys.Add("equipments");
-                DataHelper.ModifyLocalData(modifyKeys, () => { });
-                // 加载新手引导
-                LoadGuideMain_1();
+                    GameObject pageTmp = Instantiate(handleTmp, _pageTran);
+                    InternalPageScript pageUi = pageTmp.GetComponent<InternalPageScript>();
+                    pageUi.Initial();
+                });
             }
             else
             {
@@ -717,12 +728,12 @@ namespace GamePlay.Main
 
                 if(DataHelper.CurLevelNum<=1)
                 {
-                    Lock.gameObject.SetActive(true);
+                    Lock.gameObject.SetActive(DataHelper.CurLevelNum<=1);
                     return;
                 }
 
                 //点击排行榜触发
-                Lock.gameObject.SetActive(false);
+                // Lock.gameObject.SetActive(false);
                 // 排行榜页签
                 GetUserInfo(() =>
                 {

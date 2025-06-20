@@ -521,7 +521,7 @@ namespace GamePlay.Battle.Ui
                 else
                 {
                     AudioHandler._instance.PlayAudio(BattleManager._instance.audioAccountNext);
-                    _rewardBoxTipText.text = new StringBuilder("再飞" + _showProgress + "米可获得宝箱").ToString();
+                    _rewardBoxTipText.text = new StringBuilder("Fly more " + _showProgress + " M Can Get Reward").ToString();
                     _rewardBoxBar.fillAmount = 1 - ((float)_showProgress / ConfigManager.Instance.ShopConfigDict[9999].Limit);
                 }
 
@@ -622,7 +622,7 @@ namespace GamePlay.Battle.Ui
                         _rankItemMeUis[i].SetActive(i == rankMeIndex);
                         _rankItemNameUis[i].color = i == rankMeIndex ? Color.black : Color.white;
                         _rankItemNameUis[i].text = levelUserDatas[i].nickName;
-                        _rankItemScoreUis[i].text = new StringBuilder(ToolFunManager.GetText(levelUserDatas[i].distance, true) + "米").ToString();
+                        _rankItemScoreUis[i].text = new StringBuilder(ToolFunManager.GetText(levelUserDatas[i].distance, true) + " M").ToString();
                         if (levelUserDatas[i].userAvatar != "")
                         {
                             int iTmp = i;
@@ -637,7 +637,7 @@ namespace GamePlay.Battle.Ui
 
                 _rankMeNumText.text = rankNumTmp;
                 _rankMeName.text = ToolFunManager.LongStrDeal(rankNameTmp, 16, "...");
-                _rankMeScoreText.text = new StringBuilder(ToolFunManager.GetText(rankScoreTmp, true) + "米").ToString();
+                _rankMeScoreText.text = new StringBuilder(ToolFunManager.GetText(rankScoreTmp, true) + " M").ToString();
                 if (rankHeadTmp != "")
                 {
                     StartCoroutine(ServerGetData.GetRemoteImg(rankHeadTmp, sprite => _rankMeHead.sprite = sprite));
@@ -684,14 +684,14 @@ namespace GamePlay.Battle.Ui
                     _rankItemMeUis_city[i].SetActive(i == rankMeIndex);
                     _rankItemNameUis_city[i].color = i == rankMeIndex ? Color.black : Color.white;
                     _rankItemNameUis_city[i].text = provinceNames[i];
-                    _rankItemScoreUis_city[i].text = new StringBuilder(ToolFunManager.GetText(provinceNums[i], true) + "米").ToString();
+                    _rankItemScoreUis_city[i].text = new StringBuilder(ToolFunManager.GetText(provinceNums[i], true) + " M").ToString();
                 }
 
                 _rankMeNumText_city.text = rankMeIndex == -1 ? "---" : (rankMeIndex + 1).ToString();
-                _rankMeName_city.text = rankMeIndex == -1 ? "未知" : provinceNames[rankMeIndex];
+                _rankMeName_city.text = rankMeIndex == -1 ? "UnKnown" : provinceNames[rankMeIndex];
                 _rankMeScoreText_city.text = rankMeIndex == -1
-                    ? "0米"
-                    : new StringBuilder(ToolFunManager.GetText(provinceNums[rankMeIndex], true) + "米").ToString();
+                    ? "0 M"
+                    : new StringBuilder(ToolFunManager.GetText(provinceNums[rankMeIndex], true) + " M").ToString();
 
                 _scoreCityNameText.text = _rankMeName_city.text;
                 _scoreCityDisNumText.text = _rankMeScoreText_city.text;

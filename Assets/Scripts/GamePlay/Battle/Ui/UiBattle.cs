@@ -83,7 +83,7 @@ namespace GamePlay.Battle.Ui
             distanceNumText = infoObj.Find("Distance").GetComponent<TextMeshProUGUI>();
             distanceNumText.text =
                 new StringBuilder(ToolFunManager.GetText(
-                        BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + "M")
+                        BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + " M")
                     .ToString();
 
             disNewRecord = infoObj.Find("Distance/NewRecord").gameObject;
@@ -92,7 +92,7 @@ namespace GamePlay.Battle.Ui
             _speedValue = infoObj.Find("Speed/Value").GetComponent<Image>();
             speedNumText = infoObj.Find("Speed/Num").GetComponent<TextMeshProUGUI>();
             _speedValue.fillAmount = 0;
-            speedNumText.text = "0M/H";
+            speedNumText.text = "0 M/H";
 
             heightNumText = infoObj.Find("Height/Num").GetComponent<TextMeshProUGUI>();
             heightNumText.text = "0M";
@@ -101,13 +101,14 @@ namespace GamePlay.Battle.Ui
             goldNumText = infoObj.Find("Gold/Num").GetComponent<TextMeshProUGUI>();
             goldNumText.text = "+0";
 
-            //cityNameNow = infoObj.Find("OrderFrame/Text1").GetComponent<TextMeshProUGUI>();
-            //cityNameNow.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum - 1];
-            //cityNameNew = infoObj.Find("OrderFrame/Text2").GetComponent<TextMeshProUGUI>();
-            //if (DataHelper.CurLevelNum <= BattleManager._instance.cityNames.Length)
-            //{
-            //    cityNameNew.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum];
-            //}
+            cityNameNow = infoObj.Find("OrderFrame/Text1").GetComponent<TextMeshProUGUI>();
+          
+            cityNameNew = infoObj.Find("OrderFrame/Text2").GetComponent<TextMeshProUGUI>();
+            cityNameNow.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum - 1];
+            if (DataHelper.CurLevelNum <= BattleManager._instance.cityNames.Length)
+            {
+                cityNameNew.text = BattleManager._instance.cityNames[DataHelper.CurLevelNum];
+            }
 
             GreateClockIn();
         }
@@ -133,7 +134,7 @@ namespace GamePlay.Battle.Ui
         {
             distanceNumText.text =
                 new StringBuilder(ToolFunManager.GetText(
-                        Mathf.FloorToInt(BattleManager._instance.scoreDistance) + BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + "M")
+                        Mathf.FloorToInt(BattleManager._instance.scoreDistance) + BattleManager._instance.endDis * (DataHelper.CurLevelNum - 1), true) + " M")
                     .ToString();
 
             float distance = BattleManager._instance.scoreDistance / BattleManager._instance.endDis;
@@ -162,7 +163,7 @@ namespace GamePlay.Battle.Ui
 
         internal void RefreshHeight()
         {
-            heightNumText.text = new StringBuilder(BattleManager._instance.nowHeight + "M").ToString();
+            heightNumText.text = new StringBuilder(BattleManager._instance.nowHeight + " M").ToString();
         }
 
         internal void RefreshSpurt(int spurtIngState, float Ratio)

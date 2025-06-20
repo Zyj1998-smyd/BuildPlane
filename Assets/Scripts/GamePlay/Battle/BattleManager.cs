@@ -117,7 +117,7 @@ namespace GamePlay.Battle
 
         private GameObject qiZi;
 
-        internal readonly string[] cityNames = { "Area 1", "Area 2", "Area 3", "Area 4", "Area 5", "Area 6", "Area 7", "Area 8", "Area 9", "Area 10", "Area 11", "Area 12", "Area 13", "Area 14", "Area 15" };
+        internal readonly string[] cityNames = { "AF", "OC", "SA", "EU-1", "EU-2", "NA", "AS", "Hangzhou", "Changsha", "Jinan", "Chongqing", "Zhengzhou", "HK", "Macao", "Taipei" };
 
         private void Awake()
         {

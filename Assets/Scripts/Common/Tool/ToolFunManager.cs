@@ -48,21 +48,21 @@ namespace Common.Tool
             StringBuilder numString = new StringBuilder();
             if (num >= 1000000000)
             {
-                // 大于一亿
+                // 大于一B
                 float numTmp = num / 1000000000f;
                 numString.Append(numTmp.ToString("F2").TrimEnd('0').TrimEnd('.'));
                 numString.Append("B");
             }
             else if (num >= 1000000)
             {
-                // 大于一万
+                // 大于一M
                 float numTmp = num / 1000000f;
                 numString.Append(numTmp.ToString("F2").TrimEnd('0').TrimEnd('.'));
-                numString.Append("M");
+                numString.Append(" M");
             }
             else if (num >= 1000)
             {
-                // 大于一千
+                // 大于一K
                 float numTmp = num / 1000f;
                 numString.Append(numTmp.ToString("F2").TrimEnd('0').TrimEnd('.'));
                 numString.Append("K");

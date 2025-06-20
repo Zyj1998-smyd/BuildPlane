@@ -359,7 +359,7 @@ namespace GamePlay.Module.InternalPage
         /// </summary>
         private void RefreshInfo()
         {
-            _distanceNumText.text = new StringBuilder("Most Fly Distance：" + ToolFunManager.GetText(DataHelper.CurUserInfoData.distanceRecord, true) + "M").ToString();
+            _distanceNumText.text = new StringBuilder("Most Fly Distance：" + ToolFunManager.GetText(DataHelper.CurUserInfoData.distanceRecord, true) + " M").ToString();
 
             ShopConfig shopConfig = ConfigManager.Instance.ShopConfigDict[9999];
             int targetNum = shopConfig.Limit;
