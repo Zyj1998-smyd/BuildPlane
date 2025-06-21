@@ -236,6 +236,9 @@ namespace GamePlay.Main
         
         private void Start()
         {
+            //刷新解锁
+            Lock.gameObject.SetActive(DataHelper.CurLevelNum <= 1);
+
             LoadPage(_internalPageNames[3], 3, () => { }); // 加载组装页面
             LoadPage(_internalPageNames[4], 4, () => { });  // 加载排行页面
             LoadPage(_internalPageNames[1], 1, () => { });  // 加载商店页面

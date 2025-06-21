@@ -410,6 +410,7 @@ namespace GamePlay.Battle
                 _camControl.targatTram = null;
                 AudioHandler._instance.PlayAudio(audioQiZi);
                 await UniTask.Delay(1000, cancellationToken: _cancellationToken.Token);
+                Debug.Log("结束调用");
                 _uiBattle.OpenAccount();
             }
         }
@@ -419,7 +420,6 @@ namespace GamePlay.Battle
             accountWinIng = true;
 
             await UniTask.Delay(20, cancellationToken: _cancellationToken.Token);
-
             _uiBattle.OpenAccount();
         }
 

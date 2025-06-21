@@ -21,6 +21,11 @@ namespace GamePlay.Battle
                     ani = GetComponent<Animation>();
                     break;
             }
+            if(itemType!=ItemType.gold)
+            {
+                transform.localScale = Vector3.one * 1.2f;
+                transform.GetComponent<BoxCollider>().size = new Vector3(4f, 4f, 0.5f);
+            }
         }
 
         private void OnEnable()

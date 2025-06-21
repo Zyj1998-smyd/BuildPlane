@@ -290,6 +290,8 @@ namespace GamePlay.Module.InternalPage
 
             // 隐藏游戏圈入口按钮
             _btnGameClub.SetActive(false);
+
+            
         }
 
         public override void CloseInternalPage()

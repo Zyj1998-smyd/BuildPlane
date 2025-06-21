@@ -186,7 +186,7 @@ namespace GamePlay.Battle.Ui
             _boxFullObj = transform.Find("BoxFull").gameObject;
             _boxFullObj.SetActive(false);
             GameObject rankObj = transform.Find("Rank").gameObject;
-            rankObj.SetActive(false);
+           // rankObj.SetActive(false);
             _rankObj_1 = rankObj.transform.Find("Rank1").gameObject;
             _rankObj_1.SetActive(false);
             _rankObj_2 = rankObj.transform.Find("Rank2").gameObject;
@@ -704,17 +704,23 @@ namespace GamePlay.Battle.Ui
         /// </summary>
         private void OnBtnNext()
         {
+            //当前选择的关卡
+            Debug.Log("当前选择的关卡:" + DataHelper.CurLevelNum);
+            if (DataHelper.CurLevelNum<=1)
+            {
+                _ = AccountStep_3();
+                return;
+            }
             if (_nextNum == 0)
             {
                 _nextNum = 1;
-                // _ = AccountStep_2();
+                 _ = AccountStep_2();
+            }
+            else
+            {
+                _nextNum = 2;
                 _ = AccountStep_3();
             }
-            // else
-            // {
-            //     _nextNum = 2;
-            //     _ = AccountStep_3();
-            // }
         }
 
         /// <summary>
