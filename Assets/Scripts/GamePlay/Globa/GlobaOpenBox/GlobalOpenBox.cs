@@ -92,7 +92,8 @@ namespace GamePlay.Globa.GlobaOpenBox
             _btnSkip.GetComponent<Button>().onClick.AddListener(OnBtnSkip);
             
             _btnOpen = canvasMe.transform.Find("Frame/BtnOpen").gameObject;
-            _btnOpen.GetComponent<Button>().onClick.AddListener(OnBtnOpen);
+            // _btnOpen.GetComponent<Button>().onClick.AddListener(OnBtnOpen);
+            _btnOpen.GetComponent<Button>().onClick.AddListener(OnBtnSkip);
             
             _btnContinue = canvasMe.transform.Find("Frame/BtnContinue").gameObject;
             _btnContinue.GetComponent<Button>().onClick.AddListener(OnBtnContinue);
