@@ -156,6 +156,13 @@ namespace Data
             "66CAFF", "A4FFA2", "F7FF79", "A486FF", "FF6DFB", "FF584C"
         };
 
+        // public static readonly List<int> LevelDistance = new List<int>()
+        // {
+        //     1000,
+        //     1000,
+        //     
+        // };
+        
         /** 使用道具增加时间 2分钟 */
         public static readonly int UseItemAddTime = 2;
         /** 复活增加时间 5分钟 */

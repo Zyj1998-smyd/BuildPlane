@@ -162,6 +162,7 @@
     <Compile Include="Assets\Scripts\Common\GameRoot\TouchJoystick.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Module\InternalPage\ItemPrefabs\ItemBuildSelectUi.cs" />
     <Compile Include="Assets\Scripts\Common\Login\GameLogin.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\Module\InternalPage\OpenNamePageUi.cs" />
     <Compile Include="Assets\Scripts\GamePlay\Module\ClockIn\ItemCityUi.cs" />
     <Compile Include="Assets\Scripts\Data\ClassData\UserInfoData.cs" />
     <Compile Include="Assets\Scripts\Data\ConfigData\RewardBoxConfig.cs" />
@@ -177,6 +178,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Packages\Odin\package.json" />
     <None Include="Assets\Shaders\Scene\SpeedBoard.shader" />
+    <None Include="Assets\google-services.json" />
     <None Include="Assets\Resources\Json\GmConfig.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Packages\Odin\Plugins\Assemblies\NoEditor\Sirenix.Serialization.dll.backup.txt" />
@@ -196,7 +198,6 @@
     <None Include="Assets\Resources\Json\SignConfig.json" />
     <None Include="Packages\Odin\Plugins\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll.backup.txt" />
     <None Include="Assets\Shaders\Role\Role.shader" />
-    <None Include="Assets\AddressableAssetsData\link.xml" />
     <None Include="Packages\Odin\Plugins\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
     <None Include="Assets\Shaders\Scene\Scene.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -216,6 +217,7 @@
     <None Include="Packages\Odin\Plugins\Assemblies\link.xml.backup.txt" />
     <None Include="Packages\ScrollList\package.json" />
     <None Include="Assets\Shaders\Ui\UiText.shader" />
+    <None Include="Assets\TextMesh Pro\Glyph Report.txt" />
     <None Include="Packages\Odin\Plugins\Assemblies\Sirenix.Utilities.Editor.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Shaders\Other\Target.shader" />
@@ -430,28 +432,28 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.53f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Reflection.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
-      <HintPath>E:\Work\CSDN\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Serialization.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
-      <HintPath>E:\Work\CSDN\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
-      <HintPath>E:\Work\CSDN\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities">
-      <HintPath>E:\Work\CSDN\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Utilities.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Packages\Odin\Plugins\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.53f1c1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -835,97 +837,97 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.53f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.TextMeshPro">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.DOTween">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.Addressables">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UniTask.Linq">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="PPv2URPConverters">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="UniTask">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\UniTask.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\UniTask.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables">
-      <HintPath>E:\Work\CSDN\BuildPlane\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+      <HintPath>E:\Work\GithubDesktop\BuildPlane\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

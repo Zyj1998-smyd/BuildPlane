@@ -168,13 +168,13 @@ namespace GamePlay.Battle
             spurtTouch.SetActive(false);
             _camControl.enabled = false;
 
-            sceneArtId = Mathf.Min(DataHelper.CurLevelNum, 10);
+            sceneArtId = Mathf.Min(DataHelper.CurLevelNum, 24);
             SetPropety();
 
             LevelLong = 4;
             LevelLongTmp = LevelLong;
             // endDis = LevelLong * 200 * 5; //间隔数 * 每段长度200
-            endDis = 4000;
+            endDis = 1000;
             landmarkNum = 1;
 
             CreateScene();

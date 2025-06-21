@@ -9554,6 +9554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneArt1_Landmark5
       objectReference: {fileID: 0}
+    - target: {fileID: 1095863027380564688, guid: a7b0f7d58aad8574ba9f59749acc7253,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4079673146364286650, guid: a7b0f7d58aad8574ba9f59749acc7253,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9756,6 +9761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneArt1_Landmark2
       objectReference: {fileID: 0}
+    - target: {fileID: 3429179092815768242, guid: 6f5ccf9ae18a2124a927505e1f0f5aed,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9824,6 +9834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneArt1_Landmark4
       objectReference: {fileID: 0}
+    - target: {fileID: 8638981713077437930, guid: c6a5e551e60438b47af9ccf8bcce74fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9841,6 +9856,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SceneArt1_Landmark3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374817104072501062, guid: 8ce9ff701eb80d3449053ad55fcd5eae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2107589028477286050, guid: 8ce9ff701eb80d3449053ad55fcd5eae,
         type: 3}
